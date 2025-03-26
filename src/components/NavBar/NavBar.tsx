@@ -1,3 +1,4 @@
+import { NavBarProps } from '../../types';
 import './NavBar.css';
 
 export default function NavBar() {
