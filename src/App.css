@@ -1,0 +1,29 @@
+::root {
+  /*Alucard Theme Variables */
+  --alucard-dark-blue: #00011a;
+  --alucard-light-blue: #1a1b5a;
+  --alucard-font: "alucard", sans-serif;
+
+  /* Ent theme Variables */
+  --atkinson-font: "atkinson-hyperlegebile", sans-serif;
+  --ent-background: #374145;
+  --ent-white: #D3C6AA;
+
+  /* Solaire theme Variables */
+  --bitmap-font: "kirsch", sans-serif;
+}
+
+@font-face {
+  font-family: "alucard";
+  src: ('./assets/fonts/Symphony of the Night.woff') format("woff");
+}
+
+@font-face {
+  font-family: "kirsch";
+  src: ('./assets/fonts/Kirsch Nerd Font Regular.woff.woff') format("woff");
+}
+
+@font-face {
+  font-family: "atkinson-hyperlegebile";
+  src: ('./assets/fonts/Atkinson Hyperlegible.otf.otf') format("otf");
+}
