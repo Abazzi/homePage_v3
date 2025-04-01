@@ -1,4 +1,6 @@
-::root {
+@import './reset.css';
+
+:root {
   /*Alucard Theme Variables */
   --alucard-dark-blue: #00011a;
   --alucard-light-blue: #1a1b5a;
@@ -7,23 +9,28 @@
   /* Ent theme Variables */
   --atkinson-font: "atkinson-hyperlegebile", sans-serif;
   --ent-background: #374145;
-  --ent-white: #D3C6AA;
+  --ent-eggshell: #D3C6AA;
+  --ent-white: #fffbef;
+  --ent-green: #A7C080;
 
   /* Solaire theme Variables */
-  --bitmap-font: "kirsch", sans-serif;
+  --solaire-brick-red: #613e33;
+  --solaire-background: #130c0a;
+  --solaire-green: #77a03f;
+  --solaire-font: "toshiba-sat", sans-serif;
 }
 
 @font-face {
   font-family: "alucard";
-  src: ('./assets/fonts/Symphony of the Night.woff') format("woff");
+  src: url('assets/fonts/Symphony of the Night.woff') format("woff");
 }
 
 @font-face {
   font-family: "kirsch";
-  src: ('./assets/fonts/Kirsch Nerd Font Regular.woff.woff') format("woff");
+  src: url('assets/fonts/Kirsch Nerd Font Regular.woff') format("woff");
 }
 
 @font-face {
-  font-family: "atkinson-hyperlegebile";
-  src: ('./assets/fonts/Atkinson Hyperlegible.otf.otf') format("otf");
+  font-family: "toshiba-sat";
+  src: url('assets/fonts/WebPlus_ToshibaSat_8x14.woff') format("woff");
 }
