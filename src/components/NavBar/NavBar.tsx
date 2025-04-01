@@ -40,19 +40,18 @@ export default function NavBar({ props }: { props: NavBarProps }) {
 
 
   return (
-    <nav>
+    <nav data-theme={props.theme} className="nav-bar">
       <h1>Comic Dialog</h1>
       <h1>{currentDay}</h1>
-      <h1>{weather}</h1>
+      <h1>{weather} °C</h1>
 
-      <label htmlFor="themes">Theme</label>
       <select
         name='themes'
         id='themes-dropwdown'
-        defaultValue='kokiri'
+        defaultValue='alucard'
         onChange={e => handleThemeChange(e)}
       >
-        <option value="kokiri">Kokiri</option>
+        <option value="ent">Ent</option>
         <option value="solaire">Solaire</option>
         <option value="alucard">Alucard</option>
       </select>

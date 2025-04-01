@@ -1,0 +1,19 @@
+@import '../../App.css';
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar[data-theme='alucard'] {
+  background: linear-gradient(90deg, rgba(0, 2, 31, 1) 0%, rgba(10, 9, 58, 1) 50%, rgba(28, 29, 93, 1) 100%);
+  color: white;
+  font-family: var(--alucard-font);
+}
+
+.nav-bar[data-theme='ent'] {
+  background: var(--ent-background);
+  color: var(--ent-white);
+  font-family: var(--atkinson-font);
+}
