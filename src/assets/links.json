@@ -1,5 +1,5 @@
 {
-  "work": [
+  "programming": [
     {
       "name": "github",
       "group": "0",
@@ -133,7 +133,7 @@
       "url": "https://dribble.com"
     }
   ],
-  "bonfire": [
+  "default": [
     {
       "name": "reddit",
       "group": "0",
