@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
+# Homepage v3 (now created with React with some extra features)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Home page that contains my most used links for easy access, as well as
+> a comic strip reader that fetches data from [ComicsRSS](https://www.comicsrss.com/)
 
-Currently, two official plugins are available:
+## Install
+1. Clone Repo
+2. run ```pnpm install``` to install packages
+2. run ```pnpm run dev``` to run the dev server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Attributes
+[Castlevania: Symphony of the Night Font](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=862)
+[Alucard Animated Sprite (from Vampire Survivors)](https://poncle.games/)
+[Alucard Portrait Image](https://www.konami.com/games/castlevania/eu/en/)
 
-## Expanding the ESLint configuration
+### Previous Versions
+[v1](https://github.com/Abazzi/homePage)
+[v2](https://github.com/Abazzi/startpage)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# LICENSE
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+The Code is licensed under the MIT license, assets belong to their current copyright holders
