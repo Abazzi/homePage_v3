@@ -1,42 +1,36 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import './reset.css';
+
+:root {
+  /*Alucard Theme Variables */
+  --alucard-dark-blue: #00011a;
+  --alucard-light-blue: #1a1b5a;
+  --alucard-font: "alucard", sans-serif;
+
+  /* Ent theme Variables */
+  --atkinson-font: "atkinson-hyperlegebile", sans-serif;
+  --ent-background: #374145;
+  --ent-eggshell: #D3C6AA;
+  --ent-white: #fffbef;
+  --ent-green: #A7C080;
+
+  /* Solaire theme Variables */
+  --solaire-brick-red: #613e33;
+  --solaire-background: #130c0a;
+  --solaire-green: #77a03f;
+  --solaire-font: "toshiba-sat", sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+@font-face {
+  font-family: "alucard";
+  src: url('assets/fonts/Symphony of the Night.woff') format("woff");
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: "kirsch";
+  src: url('assets/fonts/Kirsch Nerd Font Regular.woff') format("woff");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+@font-face {
+  font-family: "toshiba-sat";
+  src: url('assets/fonts/WebPlus_ToshibaSat_8x14.woff') format("woff");
 }

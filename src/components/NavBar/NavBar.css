@@ -1,0 +1,28 @@
+@import '../../App.css';
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.nav-bar[data-theme='alucard'] {
+  background: linear-gradient(90deg, rgba(0, 2, 31, 1) 0%, rgba(10, 9, 58, 1) 50%, rgba(28, 29, 93, 1) 100%);
+  color: white;
+  font-family: var(--alucard-font);
+  font-size: 1.4rem;
+}
+
+.nav-bar[data-theme='ent'] {
+  background: var(--ent-background);
+  color: var(--ent-eggshell);
+  font-family: var(--atkinson-font);
+}
+
+.nav-bar[data-theme='solaire'] {
+  background: var(--solaire-brick-red);
+  color: var(--ent-white);
+  font-family: var(--solaire-font);
+}
