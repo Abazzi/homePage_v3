@@ -219,6 +219,12 @@
       "url": "https://jellyseerr.adambazzi.ca"
     },
     {
+      "name": "criterion channel",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://www.criterionchannel.com"
+    },
+    {
       "name": "netflix",
       "group": "2",
       "mode": "bonfire",
