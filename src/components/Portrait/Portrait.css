@@ -1,1 +1,6 @@
 @import '../../App.css';
+
+.portrait {
+  max-width: 500px;
+  height: auto;
+}

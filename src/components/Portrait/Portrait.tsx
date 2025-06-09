@@ -6,9 +6,17 @@ import solairePortrait from '../../assets/img/solaire.gif';
 
 export default function Portrait({ props }: { props: PortraitProps }) {
 
-
-  return (
-    <>
-    </>
-  )
+  if (props.theme == 'alucard') {
+    return (
+      <img src={alucardPortrait} className='portrait' />
+    )
+  } else if (props.theme == 'ent') {
+    return (
+      <img src={entPortrait} className='portrait' />
+    )
+  } else {
+    return (
+      <img src={solairePortrait} className='portrait' />
+    )
+  }
 }

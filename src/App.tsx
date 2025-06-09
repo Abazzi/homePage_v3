@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import './App.css'
 import NavBar from './components/NavBar/NavBar';
+import Portrait from './components/Portrait/Portrait';
 
 function App() {
-  const [theme, setTheme] = useState('alucard');
+  const [theme, setTheme] = useState('ent');
 
   /* Link Mode represents the name of the array of links in links.json
    * that is currently being displayed on the page. In v2 the theme and link
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <NavBar props={{ theme: theme, setTheme: setTheme }} />
+      <Portrait props={{ theme: theme, setTheme: setTheme }} />
     </>
   )
 }
