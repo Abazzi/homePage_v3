@@ -5,14 +5,19 @@
   --alucard-dark-blue: #00011a;
   --alucard-light-blue: #1a1b5a;
   --alucard-font: "alucard", sans-serif;
+  --beleran-font: 'beleran', sans-serif;
 
   /* Ent theme Variables */
   --atkinson-font: "atkinson-hyperlegebile", sans-serif;
-  --gaeas-background: #374145;
+  --gaeas-background: #744D29ff;
   --gaeas-eggshell: #D3C6AA;
   --gaeas-white: #fffbef;
   --gaeas-green: #787116;
   --gaeas-blue-grey: #899d9a;
+  /* The Card Border is based on the physical card from Urza's Saga */
+  --gaeas-card-border: #ad9a93;
+  --gaeas-tree: #8e6e3c;
+  --gaeas-tree-nut: #412210;
 
   /* Solaire theme Variables */
   --solaire-brick-red: #613e33;
@@ -35,4 +40,9 @@
 @font-face {
   font-family: "toshiba-sat";
   src: url('assets/fonts/WebPlus_ToshibaSat_8x14.woff') format("woff");
+}
+
+@font-face {
+  font-family: "beleran";
+  src: url('assets/fonts/Beleren2016-Bold.woff') format("woff");
 }

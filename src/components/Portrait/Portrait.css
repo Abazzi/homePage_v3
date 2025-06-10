@@ -10,7 +10,7 @@
 }
 
 .portrait[data-theme='gaeas'] {
-  border: 3px solid var(--gaeas-blue-grey);
+  border: 3px solid var(--gaeas-card-border);
 }
 
 .portrait[data-theme='solaire'] {
