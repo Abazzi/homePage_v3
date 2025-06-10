@@ -4,6 +4,12 @@ import NavBar from './components/NavBar/NavBar';
 import Portrait from './components/Portrait/Portrait';
 
 function App() {
+
+  /* The theme state will is a string that changes based on the theme dropdown
+   * menu in the NavBar Component. The variable 'theme' will be attached to each
+   * component as a CSS data type that will update the look of the website on
+   * change
+   * */
   const [theme, setTheme] = useState('alucard');
 
   /* Link Mode represents the name of the array of links in links.json
