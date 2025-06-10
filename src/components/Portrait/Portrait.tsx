@@ -1,7 +1,8 @@
 import { PortraitProps } from "../../types";
 import './Portrait.css';
 import alucardPortrait from '../../assets/img/alucard_portrait.webp';
-import entPortrait from '../../assets/img/ent.webp';
+// import entPortrait from '../../assets/img/ent.webp';
+import gaeasCradlePortrait from '../../assets/img/gaeas_cradle.jpg';
 import solairePortrait from '../../assets/img/solaire.gif';
 
 export default function Portrait({ props }: { props: PortraitProps }) {
@@ -10,9 +11,9 @@ export default function Portrait({ props }: { props: PortraitProps }) {
     return (
       <img src={alucardPortrait} className='portrait' />
     )
-  } else if (props.theme == 'ent') {
+  } else if (props.theme == 'gaeas') {
     return (
-      <img src={entPortrait} className='portrait' />
+      <img src={gaeasCradlePortrait} className='portrait' />
     )
   } else {
     return (

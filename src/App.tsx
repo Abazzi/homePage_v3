@@ -4,7 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Portrait from './components/Portrait/Portrait';
 
 function App() {
-  const [theme, setTheme] = useState('ent');
+  const [theme, setTheme] = useState('alucard');
 
   /* Link Mode represents the name of the array of links in links.json
    * that is currently being displayed on the page. In v2 the theme and link

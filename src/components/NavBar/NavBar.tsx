@@ -51,7 +51,7 @@ export default function NavBar({ props }: { props: NavBarProps }) {
         defaultValue='alucard'
         onChange={e => handleThemeChange(e)}
       >
-        <option value="ent">Ent</option>
+        <option value="gaeas">Gaea's Cradle</option>
         <option value="solaire">Solaire</option>
         <option value="alucard">Alucard</option>
       </select>
