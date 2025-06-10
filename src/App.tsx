@@ -22,7 +22,9 @@ function App() {
   return (
     <>
       <NavBar props={{ theme: theme, setTheme: setTheme }} />
-      <Portrait props={{ theme: theme, setTheme: setTheme }} />
+      <div className="main-container">
+        <Portrait props={{ theme: theme, setTheme: setTheme }} />
+      </div>
     </>
   )
 }

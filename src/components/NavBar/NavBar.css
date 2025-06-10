@@ -17,8 +17,8 @@
 
 .nav-bar[data-theme='gaeas'] {
   background: var(--gaeas-background);
-  color: var(--gaeas-eggshell);
-  font-family: var(--atkinson-font);
+  color: var(--gaeas-white);
+  font-family: var(--beleran-font);
 }
 
 .nav-bar[data-theme='solaire'] {
