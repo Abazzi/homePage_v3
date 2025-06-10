@@ -8,16 +8,18 @@
 
   /* Ent theme Variables */
   --atkinson-font: "atkinson-hyperlegebile", sans-serif;
-  --ent-background: #374145;
-  --ent-eggshell: #D3C6AA;
-  --ent-white: #fffbef;
-  --ent-green: #A7C080;
+  --gaeas-background: #374145;
+  --gaeas-eggshell: #D3C6AA;
+  --gaeas-white: #fffbef;
+  --gaeas-green: #787116;
+  --gaeas-blue-grey: #899d9a;
 
   /* Solaire theme Variables */
   --solaire-brick-red: #613e33;
   --solaire-background: #130c0a;
   --solaire-green: #77a03f;
   --solaire-font: "toshiba-sat", sans-serif;
+  --solaire-orange: #e9967a;
 }
 
 @font-face {

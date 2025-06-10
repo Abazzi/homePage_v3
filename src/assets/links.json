@@ -153,6 +153,12 @@
       "url": "https://mail.proton.me"
     },
     {
+      "name": "pixel drain",
+      "group": "0",
+      "mode": "bonfire",
+      "url": "https://pixeldrain.com/home"
+    },
+    {
       "name": "gmail",
       "group": "0",
       "mode": "bonfire",
@@ -183,10 +189,10 @@
       "url": "https://discord.com/app"
     },
     {
-      "name": "instagram",
+      "name": "moxfield",
       "group": "1",
       "mode": "bonfire",
-      "url": "https://instagram.com"
+      "url": "https://moxfield.com"
     },
     {
       "name": "brain",
@@ -217,6 +223,12 @@
       "group": "2",
       "mode": "bonfire",
       "url": "https://jellyseerr.adambazzi.ca"
+    },
+    {
+      "name": "criterion channel",
+      "group": "2",
+      "mode": "bonfire",
+      "url": "https://www.criterionchannel.com"
     },
     {
       "name": "netflix",
