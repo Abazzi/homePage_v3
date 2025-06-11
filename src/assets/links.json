@@ -1,282 +1,252 @@
 {
-  "programming": [
-    {
-      "name": "github",
-      "group": "0",
-      "mode": "work",
-      "url": "https://github.com"
+    "programming": {
+        "daily": [
+            {
+                "name": "github",
+                "group": "0",
+                "url": "https://github.com"
+            },
+            {
+                "name": "the odin project",
+                "group": "0",
+                "url": "https://theodinproject.com"
+            },
+            {
+                "name": "exercism",
+                "group": "0",
+                "url": "https://exercism.org"
+            },
+            {
+                "name": "code wars",
+                "group": "0",
+                "url": "https://codewars.com"
+            },
+            {
+                "name": "30secondsOfCode",
+                "group": "0",
+                "url": "https://www.30secondsofcode.org"
+            },
+            {
+                "name": "leet code",
+                "group": "0",
+                "url": "https://www.leetcode.com"
+            }
+        ],
+        "tools": [
+            {
+                "name": "regex101",
+                "group": "1",
+                "url": "https://regex101.com"
+            },
+            {
+                "name": "figma",
+                "group": "1",
+                "url": "https://figma.com"
+            },
+            {
+                "name": "jsonlint",
+                "group": "1",
+                "url": "https://jsonlint.com/"
+            },
+            {
+                "name": "coolors",
+                "group": "1",
+                "url": "https://coolors.co/"
+            },
+            {
+                "name": "fffuel",
+                "group": "1",
+                "url": "https://fffuel.co/"
+            },
+            {
+                "name": "photopea",
+                "group": "1",
+                "url": "https://photopea.com/"
+            }
+        ],
+        "docs": [
+            {
+                "name": "mankier",
+                "group": "2",
+                "url": "https://www.mankier.com/"
+            },
+            {
+                "name": "devdocs",
+                "group": "2",
+                "url": "https://devdocs.io/"
+            },
+            {
+                "name": "mdn",
+                "group": "2",
+                "url": "https://developer.mozilla.org/en-US/"
+            },
+            {
+                "name": "wumbo",
+                "group": "2",
+                "url": "https://wumbo.net"
+            },
+            {
+                "name": "rosetta code",
+                "group": "2",
+                "url": "https://rosettacode.org/wiki/Rosetta_Code"
+            }
+        ],
+        "inspo": [
+            {
+                "name": "mobbin",
+                "group": "3",
+                "url": "https://mobbin.com"
+            },
+            {
+                "name": "v0",
+                "group": "3",
+                "url": "https://v0.dev"
+            },
+            {
+                "name": "httpster",
+                "group": "3",
+                "url": "https://httpster.net"
+            },
+            {
+                "name": "chatGPT",
+                "group": "3",
+                "url": "https://chatgpt.com"
+            },
+            {
+                "name": "dribble",
+                "group": "3",
+                "url": "https://dribble.com"
+            }
+        ]
     },
-    {
-      "name": "the odin project",
-      "group": "0",
-      "mode": "work",
-      "url": "https://theodinproject.com"
-    },
-    {
-      "name": "exercism",
-      "group": "0",
-      "mode": "work",
-      "url": "https://exercism.org"
-    },
-    {
-      "name": "code wars",
-      "group": "0",
-      "mode": "work",
-      "url": "https://codewars.com"
-    },
-    {
-      "name": "30secondsOfCode",
-      "group": "0",
-      "mode": "work",
-      "url": "https://www.30secondsofcode.org"
-    },
-    {
-      "name": "leet code",
-      "group": "0",
-      "mode": "work",
-      "url": "https://www.leetcode.com"
-    },
-    {
-      "name": "regex101",
-      "group": "1",
-      "mode": "work",
-      "url": "https://regex101.com"
-    },
-    {
-      "name": "figma",
-      "group": "1",
-      "mode": "work",
-      "url": "https://figma.com"
-    },
-    {
-      "name": "jsonlint",
-      "group": "1",
-      "mode": "work",
-      "url": "https://jsonlint.com/"
-    },
-    {
-      "name": "coolors",
-      "group": "1",
-      "mode": "work",
-      "url": "https://coolors.co/"
-    },
-    {
-      "name": "fffuel",
-      "group": "1",
-      "mode": "work",
-      "url": "https://fffuel.co/"
-    },
-    {
-      "name": "photopea",
-      "group": "1",
-      "mode": "work",
-      "url": "https://photopea.com/"
-    },
-    {
-      "name": "mankier",
-      "group": "2",
-      "mode": "work",
-      "url": "https://www.mankier.com/"
-    },
-    {
-      "name": "devdocs",
-      "group": "2",
-      "mode": "work",
-      "url": "https://devdocs.io/"
-    },
-    {
-      "name": "mdn",
-      "group": "2",
-      "mode": "work",
-      "url": "https://developer.mozilla.org/en-US/"
-    },
-    {
-      "name": "wumbo",
-      "group": "2",
-      "mode": "work",
-      "url": "https://wumbo.net"
-    },
-    {
-      "name": "rosetta code",
-      "group": "2",
-      "mode": "work",
-      "url": "https://rosettacode.org/wiki/Rosetta_Code"
-    },
-    {
-      "name": "mobbin",
-      "group": "3",
-      "mode": "work",
-      "url": "https://mobbin.com"
-    },
-    {
-      "name": "v0",
-      "group": "3",
-      "mode": "work",
-      "url": "https://v0.dev"
-    },
-    {
-      "name": "httpster",
-      "group": "3",
-      "mode": "work",
-      "url": "https://httpster.net"
-    },
-    {
-      "name": "chatGPT",
-      "group": "3",
-      "mode": "work",
-      "url": "https://chatgpt.com"
-    },
-    {
-      "name": "dribble",
-      "group": "3",
-      "mode": "work",
-      "url": "https://dribble.com"
+    "default": {
+        "daily": [
+            {
+                "name": "reddit",
+                "group": "0",
+                "url": "https://reddit.com"
+            },
+            {
+                "name": "youtube",
+                "group": "0",
+                "url": "https://youtube.com"
+            },
+            {
+                "name": "proton mail",
+                "group": "0",
+                "url": "https://mail.proton.me"
+            },
+            {
+                "name": "pixel drain",
+                "group": "0",
+                "url": "https://pixeldrain.com/home"
+            },
+            {
+                "name": "gmail",
+                "group": "0",
+                "url": "https://mail.google.com"
+            }
+        ],
+        "social": [
+            {
+                "name": "patreon",
+                "group": "1",
+                "url": "https://patreon.com"
+            },
+            {
+                "name": "letterboxd",
+                "group": "1",
+                "url": "https://letterboxd.com"
+            },
+            {
+                "name": "bubbles form",
+                "group": "1",
+                "url": "https://bubbleszine.proboards.com"
+            },
+            {
+                "name": "discord",
+                "group": "1",
+                "url": "https://discord.com/app"
+            },
+            {
+                "name": "moxfield",
+                "group": "1",
+                "url": "https://moxfield.com"
+            },
+            {
+                "name": "brain",
+                "group": "1",
+                "url": "https://github.com/Abazzi/brain"
+            }
+        ],
+        "media": [
+            {
+                "name": "music",
+                "group": "2",
+                "url": "https://music.adambazzi.ca"
+            },
+            {
+                "name": "photos",
+                "group": "2",
+                "url": "https://photos.adambazzi.ca"
+            },
+            {
+                "name": "jellyfin",
+                "group": "2",
+                "url": "https://jellyfin.adambazzi.ca"
+            },
+            {
+                "name": "jellyseerr",
+                "group": "2",
+                "url": "https://jellyseerr.adambazzi.ca"
+            },
+            {
+                "name": "criterion channel",
+                "group": "2",
+                "url": "https://www.criterionchannel.com"
+            },
+            {
+                "name": "netflix",
+                "group": "2",
+                "url": "https://netflix.com"
+            },
+            {
+                "name": "books",
+                "group": "2",
+                "url": "https://books.adambazzi.ca"
+            },
+            {
+                "name": "tidal",
+                "group": "2",
+                "url": "https://listen.tidal.com"
+            }
+        ],
+        "server": [
+            {
+                "name": "radarr",
+                "group": "3",
+                "url": "https://radarr.adambazzi.ca"
+            },
+            {
+                "name": "sonarr",
+                "group": "3",
+                "url": "https://sonarr.adambazzi.ca"
+            },
+            {
+                "name": "qbittorrent",
+                "group": "3",
+                "url": "https://qbit.adambazzi.ca"
+            },
+            {
+                "name": "prowlarr",
+                "group": "3",
+                "url": "https://prowlarr.adambazzi.ca"
+            },
+            {
+                "name": "bazarr",
+                "group": "3",
+                "url": "https://bazarr.adambazzi.ca"
+            }
+        ]
     }
-  ],
-  "default": [
-    {
-      "name": "reddit",
-      "group": "0",
-      "mode": "bonfire",
-      "url": "https://reddit.com"
-    },
-    {
-      "name": "youtube",
-      "group": "0",
-      "mode": "bonfire",
-      "url": "https://youtube.com"
-    },
-    {
-      "name": "proton mail",
-      "group": "0",
-      "mode": "bonfire",
-      "url": "https://mail.proton.me"
-    },
-    {
-      "name": "pixel drain",
-      "group": "0",
-      "mode": "bonfire",
-      "url": "https://pixeldrain.com/home"
-    },
-    {
-      "name": "gmail",
-      "group": "0",
-      "mode": "bonfire",
-      "url": "https://mail.google.com"
-    },
-    {
-      "name": "patreon",
-      "group": "1",
-      "mode": "bonfire",
-      "url": "https://patreon.com"
-    },
-    {
-      "name": "letterboxd",
-      "group": "1",
-      "mode": "bonfire",
-      "url": "https://letterboxd.com"
-    },
-    {
-      "name": "bubbles form",
-      "group": "1",
-      "mode": "bonfire",
-      "url": "https://bubbleszine.proboards.com"
-    },
-    {
-      "name": "discord",
-      "group": "1",
-      "mode": "bonfire",
-      "url": "https://discord.com/app"
-    },
-    {
-      "name": "moxfield",
-      "group": "1",
-      "mode": "bonfire",
-      "url": "https://moxfield.com"
-    },
-    {
-      "name": "brain",
-      "group": "1",
-      "mode": "bonfire",
-      "url": "https://github.com/Abazzi/brain"
-    },
-    {
-      "name": "music",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://music.adambazzi.ca"
-    },
-    {
-      "name": "photos",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://photos.adambazzi.ca"
-    },
-    {
-      "name": "jellyfin",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://jellyfin.adambazzi.ca"
-    },
-    {
-      "name": "jellyseerr",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://jellyseerr.adambazzi.ca"
-    },
-    {
-      "name": "criterion channel",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://www.criterionchannel.com"
-    },
-    {
-      "name": "netflix",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://netflix.com"
-    },
-    {
-      "name": "books",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://books.adambazzi.ca"
-    },
-    {
-      "name": "tidal",
-      "group": "2",
-      "mode": "bonfire",
-      "url": "https://listen.tidal.com"
-    },
-    {
-      "name": "radarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://radarr.adambazzi.ca"
-    },
-    {
-      "name": "sonarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://sonarr.adambazzi.ca"
-    },
-    {
-      "name": "qbittorrent",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://qbit.adambazzi.ca"
-    },
-    {
-      "name": "prowlarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://prowlarr.adambazzi.ca"
-    },
-    {
-      "name": "bazarr",
-      "group": "3",
-      "mode": "bonfire",
-      "url": "https://bazarr.adambazzi.ca"
-    }
-  ]
 }

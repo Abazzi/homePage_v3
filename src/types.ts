@@ -15,12 +15,25 @@ export type LinkProps = {
   url: string;
 }
 
+export type ListOfLinksProps = {
+  linkArray: Link[];
+}
+
 
 /* Non-Prop Types */
 
-export type ListOfLinks = {
-  programmingLinks: Link[];
-  defaultLinks: Link[];
+export type ProgrammingLinkGroups = {
+  daily: Link[],
+  tools: Link[],
+  docs: Link[],
+  inspo: Link[];
+}
+
+export type DefaultLinkGroups = {
+  daily: Link[],
+  social: Link[],
+  media: Link[],
+  server: Link[];
 }
 
 export type LinkBoard = {
@@ -32,5 +45,4 @@ export type Link = {
   name: string;
   url: string;
   group: string;
-  mode: string;
 }
