@@ -5,6 +5,7 @@ export type NavBarProps = {
   setTheme: React.Dispatch<React.SetStateAction<string>>;
 }
 
+
 export type PortraitProps = {
   theme: string;
   setTheme: React.Dispatch<React.SetStateAction<string>>;
@@ -19,6 +20,9 @@ export type ListOfLinksProps = {
   linkArray: Link[];
 }
 
+export type LinkBoardProps = {
+  type: string,
+}
 
 /* Non-Prop Types */
 
