@@ -6,6 +6,7 @@
   --alucard-light-blue: #1a1b5a;
   --alucard-font: "alucard", sans-serif;
   --beleran-font: 'beleran', sans-serif;
+  --goudy-font: 'goudy-mediaeval', sans-serif;
 
   /* Gaea's Cradle theme Variables */
   --gaeas-background: #744D29ff;
@@ -44,4 +45,9 @@
 @font-face {
   font-family: "beleran";
   src: url('assets/fonts/Beleren2016-Bold.woff') format("woff");
+}
+
+@font-face {
+  font-family: "goudy-mediaeval";
+  src: url('assets/fonts/Goudy Mediaeval Regular.woff') format("woff");
 }
