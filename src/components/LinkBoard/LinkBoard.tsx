@@ -1,6 +1,7 @@
 import { DefaultLinkGroups, LinkBoardProps, ProgrammingLinkGroups } from "../../types";
 import ListOfLinks from "../ListOfLinks/ListOfLinks";
 import linkData from '../../assets/links.json';
+import './LinkBoard.css';
 
 export default function LinkBoard({ props }: { props: LinkBoardProps }) {
   const ProgrammingLinks: ProgrammingLinkGroups = linkData.programming;
