@@ -51,3 +51,13 @@
   font-family: "goudy-mediaeval";
   src: url('assets/fonts/Goudy Mediaeval Regular.woff') format("woff");
 }
+
+.main-container {
+  display: grid;
+  grid-template-areas: ". portrait links .";
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  place-items: center;
+  gap: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
