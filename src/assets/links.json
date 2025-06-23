@@ -196,11 +196,6 @@
                 "url": "https://jellyfin.adambazzi.ca"
             },
             {
-                "name": "jellyseerr",
-                "group": "2",
-                "url": "https://jellyseerr.adambazzi.ca"
-            },
-            {
                 "name": "criterion channel",
                 "group": "2",
                 "url": "https://www.criterionchannel.com"
@@ -236,6 +231,11 @@
                 "name": "qbittorrent",
                 "group": "3",
                 "url": "https://qbit.adambazzi.ca"
+            },
+            {
+                "name": "jellyseerr",
+                "group": "3",
+                "url": "https://jellyseerr.adambazzi.ca"
             },
             {
                 "name": "prowlarr",
