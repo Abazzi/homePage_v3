@@ -22,6 +22,7 @@ export type ListOfLinksProps = {
 
 export type LinkBoardProps = {
   type: string,
+  theme: string
 }
 
 /* Non-Prop Types */

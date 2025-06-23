@@ -18,14 +18,14 @@ function App() {
  * selections were combined but in v3 you can have any combo of links and
  * themes
  * */
-  const [linkMode, setLinkMode] = useState('programming');
+  const [linkMode, setLinkMode] = useState('default');
 
   return (
     <>
       <NavBar props={{ theme: theme, setTheme: setTheme }} />
-      <div className="main-container">
+      <div className="main-container" data-theme={theme}>
         <Portrait props={{ theme: theme, setTheme: setTheme }} />
-        <LinkBoard props={{ type: linkMode }} />
+        <LinkBoard props={{ type: linkMode, theme: theme }} />
       </div>
     </>
   )
