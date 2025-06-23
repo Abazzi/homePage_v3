@@ -3,18 +3,3 @@
 a {
   font-size: 1.2rem;
 }
-
-a[data-theme='alucard'] {
-  font-family: var(--alucard-font);
-  color: var(--gaeas-white);
-}
-
-a[data-theme='gaeas'] {
-  font-family: var(--beleran-font);
-  color: var(--gaeas-white);
-}
-
-a[data-theme='solaire'] {
-  font-family: var(--solaire-font);
-  color: var(--gaeas-white);
-}
