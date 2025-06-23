@@ -9,7 +9,7 @@ export default function LinkBoard({ props }: { props: LinkBoardProps }) {
 
   if (props.type == "default") {
     return (
-      <div className='link-board'>
+      <div className='link-board' data-theme={props.theme}>
         <ListOfLinks props={{ linkArray: DefaultLinks.daily }} />
         <ListOfLinks props={{ linkArray: DefaultLinks.social }} />
         <ListOfLinks props={{ linkArray: DefaultLinks.media }} />
@@ -18,7 +18,7 @@ export default function LinkBoard({ props }: { props: LinkBoardProps }) {
     )
   } else if (props.type == "programming") {
     return (
-      <div className='link-board'>
+      <div className='link-board' data-theme={props.theme}>
         <ListOfLinks props={{ linkArray: ProgrammingLinks.daily }} />
         <ListOfLinks props={{ linkArray: ProgrammingLinks.tools }} />
         <ListOfLinks props={{ linkArray: ProgrammingLinks.docs }} />
