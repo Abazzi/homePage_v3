@@ -5,6 +5,7 @@
   --alucard-dark-blue: #00011a;
   --alucard-light-blue: #1a1b5a;
   --alucard-font: "alucard", sans-serif;
+  --alucard-gold: #fc9805;
   --beleran-font: 'beleran', sans-serif;
   --goudy-font: 'goudy-mediaeval', sans-serif;
 
@@ -17,7 +18,7 @@
   /* The Card Border is based on the physical card from Urza's Saga */
   --gaeas-card-border: #ad9a93;
   --gaeas-tree: #8e6e3c;
-  --gaeas-tree-nut: #412210;
+  --gaeas-tree-nut: #473427;
 
   /* Solaire theme Variables */
   --solaire-brick-red: #613e33;
@@ -27,6 +28,11 @@
   --solaire-orange: #e9967a;
 }
 
+#root {
+  height: 100%;
+}
+
+/* Imported Fonts */
 @font-face {
   font-family: "alucard";
   src: url('assets/fonts/Symphony of the Night.woff') format("woff");
@@ -52,6 +58,12 @@
   src: url('assets/fonts/Goudy Mediaeval Regular.woff') format("woff");
 }
 
+body {
+  height: 100%;
+  width: 100;
+  text-align: center;
+}
+
 .main-container {
   display: grid;
   grid-template-areas: ". portrait links .";
@@ -60,4 +72,32 @@
   gap: 80px;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 90%;
+}
+
+.main-container[data-theme='gaeas'] {
+  background-color: var(--gaeas-tree-nut);
+}
+
+.main-container[data-theme='solaire'] {
+  background-color: var(--solaire-background);
+}
+
+.main-container[data-theme='alucard'] {
+  background-color: var(--alucard-dark-blue);
+}
+
+li[data-theme='alucard'] {
+  font-family: var(--alucard-font);
+  color: var(--gaeas-white);
+}
+
+li[data-theme='gaeas'] {
+  font-family: var(--beleran-font);
+  color: var(--gaeas-white);
+}
+
+li[data-theme='solaire'] {
+  font-family: var(--solaire-font);
+  color: var(--gaeas-white);
 }

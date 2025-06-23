@@ -3,6 +3,9 @@
 .portrait {
   max-width: 384px;
   height: auto;
+  grid-area: portrait;
+  display: grid;
+  place-items: center;
 }
 
 .portrait[data-theme='alucard'] {

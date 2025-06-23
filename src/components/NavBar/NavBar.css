@@ -6,6 +6,7 @@
   align-items: center;
   padding: 1rem;
   font-size: 1.25rem;
+  height: 10%;
 }
 
 .nav-bar[data-theme='alucard'] {
