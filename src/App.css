@@ -4,33 +4,101 @@
   /*Alucard Theme Variables */
   --alucard-dark-blue: #00011a;
   --alucard-light-blue: #1a1b5a;
-  --alucard-font: "alucard", sans-serif;
+  --alucard-font: 'alucard', sans-serif;
+  --alucard-gold: #fc9805;
+  --alucard-red: #df0b0c;
+  --beleran-font: 'beleran', sans-serif;
+  --goudy-font: 'goudy-mediaeval', sans-serif;
 
-  /* Ent theme Variables */
-  --atkinson-font: "atkinson-hyperlegebile", sans-serif;
-  --ent-background: #374145;
-  --ent-eggshell: #D3C6AA;
-  --ent-white: #fffbef;
-  --ent-green: #A7C080;
+  /* Gaea's Cradle theme Variables */
+  --gaeas-background: #744d29ff;
+  --gaeas-eggshell: #d3c6aa;
+  --gaeas-white: #fffbef;
+  --gaeas-green: #787116;
+  --gaeas-blue-grey: #899d9a;
+  /* The Card Border is based on the physical card from Urza's Saga */
+  --gaeas-card-border: #ad9a93;
+  --gaeas-tree: #8e6e3c;
+  --gaeas-tree-nut: #473427;
 
   /* Solaire theme Variables */
   --solaire-brick-red: #613e33;
   --solaire-background: #130c0a;
   --solaire-green: #77a03f;
-  --solaire-font: "toshiba-sat", sans-serif;
+  --solaire-font: 'toshiba-sat', sans-serif;
+  --solaire-orange: #e9967a;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Imported Fonts */
+@font-face {
+  font-family: 'alucard';
+  src: url('assets/fonts/Symphony of the Night.woff') format('woff');
 }
 
 @font-face {
-  font-family: "alucard";
-  src: url('assets/fonts/Symphony of the Night.woff') format("woff");
+  font-family: 'kirsch';
+  src: url('assets/fonts/Kirsch Nerd Font Regular.woff') format('woff');
 }
 
 @font-face {
-  font-family: "kirsch";
-  src: url('assets/fonts/Kirsch Nerd Font Regular.woff') format("woff");
+  font-family: 'toshiba-sat';
+  src: url('assets/fonts/WebPlus_ToshibaSat_8x14.woff') format('woff');
 }
 
 @font-face {
-  font-family: "toshiba-sat";
-  src: url('assets/fonts/WebPlus_ToshibaSat_8x14.woff') format("woff");
+  font-family: 'beleran';
+  src: url('assets/fonts/Beleren2016-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'goudy-mediaeval';
+  src: url('assets/fonts/Goudy Mediaeval Regular.woff') format('woff');
+}
+
+body {
+  height: 100%;
+  width: 100;
+  text-align: center;
+}
+
+.main-container {
+  display: grid;
+  grid-template-areas: '. portrait links .';
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  place-items: center;
+  gap: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 90%;
+}
+
+.main-container[data-theme='gaeas'] {
+  background-color: var(--gaeas-tree-nut);
+}
+
+.main-container[data-theme='solaire'] {
+  background-color: var(--solaire-background);
+}
+
+.main-container[data-theme='alucard'] {
+  background-color: var(--alucard-dark-blue);
+}
+
+li[data-theme='alucard'] {
+  font-family: var(--alucard-font);
+  color: var(--gaeas-white);
+}
+
+li[data-theme='gaeas'] {
+  font-family: var(--beleran-font);
+  color: var(--gaeas-white);
+}
+
+li[data-theme='solaire'] {
+  font-family: var(--solaire-font);
+  color: var(--gaeas-white);
 }

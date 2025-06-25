@@ -6,6 +6,7 @@
   align-items: center;
   padding: 1rem;
   font-size: 1.25rem;
+  height: 10%;
 }
 
 .nav-bar[data-theme='alucard'] {
@@ -15,14 +16,14 @@
   font-size: 1.4rem;
 }
 
-.nav-bar[data-theme='ent'] {
-  background: var(--ent-background);
-  color: var(--ent-eggshell);
-  font-family: var(--atkinson-font);
+.nav-bar[data-theme='gaeas'] {
+  background: var(--gaeas-background);
+  color: var(--gaeas-white);
+  font-family: var(--beleran-font);
 }
 
 .nav-bar[data-theme='solaire'] {
   background: var(--solaire-brick-red);
-  color: var(--ent-white);
+  color: var(--gaeas-white);
   font-family: var(--solaire-font);
 }

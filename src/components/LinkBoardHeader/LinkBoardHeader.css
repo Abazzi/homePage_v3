@@ -1,0 +1,55 @@
+@import '../../App.css';
+
+.link-board-header {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+.link-board-header[data-theme='solaire'] {
+  font-family: var(--solarie-font);
+  font-size: 2rem;
+  color: var(--solaire-orange);
+}
+
+.link-board-header[data-theme='alucard'] {
+  font-family: var(--alucard-font);
+  font-size: 2rem;
+  color: var(--gaeas-white);
+}
+
+.link-board-header[data-theme='gaeas'] {
+  font-family: var(--beleran-font);
+  font-size: 2rem;
+  color: var(--gaeas-white);
+}
+
+.blinking {
+  animation: opacity 1s ease-in-out infinite;
+  opacity: 1;
+}
+
+#switch-links-button {
+  background-image: url('../../assets/img/icons/tap.webp');
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+/*Keyframes for blinking cursor*/
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

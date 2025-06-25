@@ -1,0 +1,21 @@
+@import '../../App.css';
+
+.portrait {
+  max-width: 384px;
+  height: auto;
+  grid-area: portrait;
+  display: grid;
+  place-items: center;
+}
+
+.portrait[data-theme='alucard'] {
+  border: 3px solid var(--alucard-light-blue);
+}
+
+.portrait[data-theme='gaeas'] {
+  border: 3px solid var(--gaeas-card-border);
+}
+
+.portrait[data-theme='solaire'] {
+  border: 3px solid var(--solaire-orange);
+}
