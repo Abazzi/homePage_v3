@@ -26,7 +26,7 @@ function App() {
       <NavBar props={{ theme: theme, setTheme: setTheme }} />
       <div className="main-container" data-theme={theme}>
         <Portrait props={{ theme: theme, setTheme: setTheme }} />
-        <LinkBoard props={{ type: linkMode, theme: theme }} />
+        <LinkBoard props={{ linkMode: linkMode, theme: theme, setLinkMode: setLinkMode }} />
       </div>
     </>
   )
