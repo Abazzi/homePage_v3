@@ -1,4 +1,5 @@
 import { LinkProps } from "../../types";
+import './Link.css';
 
 export default function Link({ props }: { props: LinkProps }) {
   return (
