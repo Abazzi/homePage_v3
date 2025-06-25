@@ -19,6 +19,7 @@ function App() {
  * themes
  * */
   const [linkMode, setLinkMode] = useState('default');
+  const linkModes = ['default', 'programming'];
 
   return (
     <>

@@ -25,6 +25,11 @@ export type LinkBoardProps = {
   theme: string
 }
 
+export type LinkBoardHeaderProps = {
+  linkModeTypes: string[];
+  setLinkMode: React.Dispatch<React.SetStateAction<string>>;
+}
+
 /* Non-Prop Types */
 
 export type ProgrammingLinkGroups = {
