@@ -4,35 +4,62 @@ a {
   font-size: 1.2rem;
 }
 
-.link-board[data-theme="alucard"]>ul>li>a {
+.list-title {
+  font-size: 1.5rem;
+}
+
+/* This was easier than prop drilling the theme */
+
+.link-board[data-theme='alucard'] > ul > li > a {
   font-family: var(--alucard-font);
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--gaeas-white);
 }
 
-.link-board[data-theme="gaeas"]>ul>li>a {
+.link-board[data-theme='alucard'] > ul > .list-title {
+  font-family: var(--alucard-font);
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--alucard-red);
+}
+
+.link-board[data-theme='gaeas'] > ul > li > a {
   font-family: var(--beleran-font);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-decoration: none;
   color: var(--gaeas-white);
 }
 
-.link-board[data-theme="solaire"]>ul>li>a {
+.link-board[data-theme='gaeas'] > ul > .list-title {
+  font-family: var(--beleran-font);
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--gaeas-eggshell);
+}
+
+.link-board[data-theme='solaire'] > ul > li > a {
   font-family: var(--solaire-font);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-decoration: none;
   color: var(--gaeas-white);
 }
 
-.link-board[data-theme="solaire"]>ul>li>a:hover {
+.link-board[data-theme='solaire'] > ul > .list-title {
+  font-family: var(--solaire-font);
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--solaire-orange);
+}
+
+.link-board[data-theme='solaire'] > ul > li > a:hover {
   color: var(--solaire-green);
 }
 
-.link-board[data-theme="alucard"]>ul>li>a:hover {
+.link-board[data-theme='alucard'] > ul > li > a:hover {
   color: var(--alucard-gold);
 }
 
-.link-board[data-theme="gaeas"]>ul>li>a:hover {
+.link-board[data-theme='gaeas'] > ul > li > a:hover {
   color: var(--solaire-green);
 }
