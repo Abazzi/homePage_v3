@@ -15,7 +15,7 @@ export default function LinkBoardHeader({ props }: { props: LinkBoardHeaderProps
   } else if (props.linkMode == 'programming') {
     return (
       <div className="link-board-header" data-theme={props.theme}>
-        <span>[homepage@programming]<span className='blinking'>_</span></span>
+        <span>[homepage@programming]<span className='blinking'> _ </span></span>
         <button id='switch-links-button' onClick={() => {
           props.setLinkMode('default');
         }} />
