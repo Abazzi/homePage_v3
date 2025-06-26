@@ -8,9 +8,9 @@
 }
 
 .link-board-header[data-theme='solaire'] {
-  font-family: var(--solarie-font);
+  font-family: var(--solaire-font);
   font-size: 2rem;
-  color: var(--solaire-orange);
+  color: var(--gaeas-white);
 }
 
 .link-board-header[data-theme='alucard'] {
