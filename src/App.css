@@ -102,3 +102,13 @@ li[data-theme='solaire'] {
   font-family: var(--solaire-font);
   color: var(--gaeas-white);
 }
+
+@media only screen and (max-width: 1000px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}

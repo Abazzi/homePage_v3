@@ -19,3 +19,9 @@
 .portrait[data-theme='solaire'] {
   border: 3px solid var(--solaire-orange);
 }
+
+@media only screen and (max-width: 1000px) {
+  .portrait {
+    max-width: 300px;
+  }
+}
