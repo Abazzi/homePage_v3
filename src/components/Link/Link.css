@@ -10,6 +10,7 @@ a {
 
 /* This was easier than prop drilling the theme */
 
+/* Alucard Link Styling */
 .link-board[data-theme='alucard'] > ul > li > a {
   font-family: var(--alucard-font);
   font-size: 1.5rem;
@@ -24,6 +25,7 @@ a {
   color: var(--alucard-red);
 }
 
+/* Gaeas Cradle Link Styling */
 .link-board[data-theme='gaeas'] > ul > li > a {
   font-family: var(--beleran-font);
   font-size: 1.5rem;
@@ -37,6 +39,8 @@ a {
   text-decoration: none;
   color: var(--gaeas-eggshell);
 }
+
+/* Solaire Link Styling */
 
 .link-board[data-theme='solaire'] > ul > li > a {
   font-family: var(--solaire-font);
@@ -52,6 +56,23 @@ a {
   color: var(--solaire-orange);
 }
 
+/* HHKB Link Styling */
+
+.link-board[data-theme='hhkb'] > ul > li > a {
+  font-family: var(--hhkb-font);
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--hhkb-text);
+}
+
+.link-board[data-theme='hhkb'] > ul > .list-title {
+  font-family: var(--hhkb-font);
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--hhkb-orange);
+}
+
+/* Hover Link Styling */
 .link-board[data-theme='solaire'] > ul > li > a:hover {
   color: var(--solaire-green);
 }
@@ -62,4 +83,8 @@ a {
 
 .link-board[data-theme='gaeas'] > ul > li > a:hover {
   color: var(--solaire-green);
+}
+
+.link-board[data-theme='hhkb'] > ul > li > a:hover {
+  color: var(--hhkb-teal);
 }

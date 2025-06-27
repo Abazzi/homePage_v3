@@ -25,6 +25,12 @@
   color: var(--gaeas-white);
 }
 
+.link-board-header[data-theme='hhkb'] {
+  font-family: var(--hhkb-font);
+  font-size: 2rem;
+  color: var(--hhkb-purple);
+}
+
 .blinking {
   animation: opacity 1s ease-in-out infinite;
   opacity: 1;
