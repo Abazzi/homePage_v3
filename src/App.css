@@ -21,7 +21,16 @@
   --gaeas-tree: #8e6e3c;
   --gaeas-tree-nut: #473427;
 
-  /* Solaire theme Variables */
+  /* HHKB Theme Variables (it's just Catppuccin Mocha)  */
+  --hhkb-font: 'torus', sans-serif;
+  --hhkb-nav-bar: #313244;
+  --hhkb-orange: #fab387;
+  --hhkb-text: #cdd6f4;
+  --hhkb-background: #1e1e2e;
+  --hhkb-purple: #cba6f7;
+  --hhkb-teal: #94e2d5;
+
+  /* Solaire Theme Variables */
   --solaire-brick-red: #613e33;
   --solaire-background: #130c0a;
   --solaire-green: #77a03f;
@@ -59,6 +68,11 @@
   src: url('assets/fonts/Goudy Mediaeval Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'torus';
+  src: url('assets/fonts/Torus_Regular.woff') format('woff');
+}
+
 body {
   height: 100%;
   width: 100;
@@ -88,6 +102,10 @@ body {
   background-color: var(--alucard-dark-blue);
 }
 
+.main-container[data-theme='hhkb'] {
+  background-color: var(--hhkb-background);
+}
+
 li[data-theme='alucard'] {
   font-family: var(--alucard-font);
   color: var(--gaeas-white);
@@ -101,4 +119,14 @@ li[data-theme='gaeas'] {
 li[data-theme='solaire'] {
   font-family: var(--solaire-font);
   color: var(--gaeas-white);
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
 }

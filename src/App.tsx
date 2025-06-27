@@ -11,7 +11,7 @@ function App() {
    * component as a CSS data type that will update the look of the website on
    * change
    * */
-  const [theme, setTheme] = useState('alucard');
+  const [theme, setTheme] = useState('gaeas');
 
   /* Link Mode represents the name of the array of links in links.json
  * that is currently being displayed on the page. In v2 the theme and link
@@ -19,7 +19,6 @@ function App() {
  * themes
  * */
   const [linkMode, setLinkMode] = useState('default');
-  const linkModes = ['default', 'programming'];
 
   return (
     <>

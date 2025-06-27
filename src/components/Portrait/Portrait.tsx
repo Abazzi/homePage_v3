@@ -3,6 +3,7 @@ import './Portrait.css';
 import alucardPortrait from '../../assets/img/portraits/alucard_portrait.webp';
 import gaeasCradlePortrait from '../../assets/img/portraits/gaeas_cradle.webp';
 import solairePortrait from '../../assets/img/portraits/solaire.gif';
+import hhkbGuy from '../../assets/img/portraits/hhkbGuy.webp';
 
 export default function Portrait({ props }: { props: PortraitProps }) {
 
@@ -13,6 +14,10 @@ export default function Portrait({ props }: { props: PortraitProps }) {
   } else if (props.theme == 'gaeas') {
     return (
       <img src={gaeasCradlePortrait} className='portrait' data-theme={props.theme} />
+    )
+  } else if (props.theme == 'hhkb') {
+    return (
+      <img src={hhkbGuy} className='portrait' data-theme={props.theme} />
     )
   } else {
     return (

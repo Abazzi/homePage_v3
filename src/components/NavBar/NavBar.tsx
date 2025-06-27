@@ -48,12 +48,13 @@ export default function NavBar({ props }: { props: NavBarProps }) {
       <select
         name='themes'
         id='themes-dropwdown'
-        defaultValue='alucard'
+        defaultValue='gaeas'
         onChange={e => handleThemeChange(e)}
       >
         <option value="gaeas">Gaea's Cradle</option>
         <option value="solaire">Solaire</option>
         <option value="alucard">Alucard</option>
+        <option value="hhkb">HHKB</option>
       </select>
     </nav>
   )
