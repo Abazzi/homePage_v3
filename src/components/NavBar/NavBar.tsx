@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import { useEffect, useMemo, useState } from 'react';
 import { NavBarProps } from '../../types';
 import './NavBar.css';
@@ -24,8 +23,6 @@ export default function NavBar({ props }: { props: NavBarProps }) {
     month: 'long',
   });
 
-  function handleThemeChange(e: React.ChangeEvent<HTMLSelectElement>) {
-    props.setTheme(e.target.value)
   async function fetchWeather(date: Date): Promise<void> {
     const url =
       'https://api.open-meteo.com/v1/forecast?latitude=42.293&longitude=-82.9&current=temperature_2m&hourly=temperature_2m&timezone=auto&forecast_days=1';
@@ -53,7 +50,7 @@ export default function NavBar({ props }: { props: NavBarProps }) {
         name='themes'
         id='themes-dropwdown'
         defaultValue='gaeas'
-        onChange={e => handleThemeChange(e)}
+        onChange={e => props.setTheme(e.target.value)}
       >
         <option value="gaeas">Gaea's Cradle</option>
         <option value="solaire">Solaire</option>
