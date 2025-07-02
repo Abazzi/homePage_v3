@@ -5,7 +5,7 @@ export default function LinkBoardHeader({ props }: { props: LinkBoardHeaderProps
 
   return (
     <div className="link-board-header" data-theme={props.theme}>
-      <span>[homepage@programming]<span className='blinking'> _ </span></span>
+      <span>[homepage@{props.linkMode}]<span className='blinking'> _ </span></span>
       <select name="link-mode" id="link-mode-select" defaultValue='default' onChange={e => props.setLinkMode(e.target.value)}>
         <option value='default'>Default</option>
         <option value='programming'>Programming</option>
