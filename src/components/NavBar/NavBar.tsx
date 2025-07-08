@@ -49,7 +49,7 @@ export default function NavBar({ props }: { props: NavBarProps }) {
       <select
         name='themes'
         id='themes-dropwdown'
-        defaultValue='gaeas'
+        defaultValue={props.theme}
         onChange={e => props.setTheme(e.target.value)}
       >
         <option value="gaeas">Gaea's Cradle</option>
