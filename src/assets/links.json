@@ -122,11 +122,6 @@
     "default": {
         "daily": [
             {
-                "name": "reddit",
-                "group": "0",
-                "url": "https://reddit.com"
-            },
-            {
                 "name": "youtube",
                 "group": "0",
                 "url": "https://youtube.com"
