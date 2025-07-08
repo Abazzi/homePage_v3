@@ -6,16 +6,13 @@
   align-items: center;
   padding: 1rem;
   font-size: 1rem;
-  height: 5%;
 }
 
 .nav-bar[data-theme='alucard'] {
-  background: linear-gradient(
-    90deg,
-    rgba(0, 2, 31, 1) 0%,
-    rgba(10, 9, 58, 1) 50%,
-    rgba(28, 29, 93, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(0, 2, 31, 1) 0%,
+      rgba(10, 9, 58, 1) 50%,
+      rgba(28, 29, 93, 1) 100%);
   color: white;
   font-family: var(--alucard-font);
   font-size: 1.4rem;
@@ -37,4 +34,16 @@
   background: var(--hhkb-nav-bar);
   color: var(--hhkb-text);
   font-family: var(--hhkb-font);
+}
+
+@media only screen and (max-width: 1080px) {
+  .nav-bar {
+    max-height: 10%
+  }
+}
+
+@media only screen and (max-width: 1090px) {
+  .nav-bar {
+    max-height: 5%
+  }
 }
