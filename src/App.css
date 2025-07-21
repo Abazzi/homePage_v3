@@ -44,27 +44,27 @@
 /* Imported Fonts */
 @font-face {
   font-family: 'alucard';
-  src: url('../public/fonts/Symphony of the Night.woff') format('woff');
+  src: url('./fonts/Symphony of the Night.woff') format('woff');
 }
 
 @font-face {
   font-family: 'kirsch';
-  src: url('../public/fonts/Kirsch Nerd Font Regular.woff') format('woff');
+  src: url('./fonts/Kirsch Nerd Font Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'toshiba-sat';
-  src: url('../public/fonts/WebPlus_ToshibaSat_8x14.woff') format('woff');
+  src: url('./fonts/WebPlus_ToshibaSat_8x14.woff') format('woff');
 }
 
 @font-face {
   font-family: 'beleran';
-  src: url('../public/fonts/Beleren2016-Bold.woff') format('woff');
+  src: url('./fonts/Beleren2016-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'torus';
-  src: url('../public//fonts/Torus_Regular.woff') format('woff');
+  src: url('./fonts/Torus_Regular.woff') format('woff');
 }
 
 body {
