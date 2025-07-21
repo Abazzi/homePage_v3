@@ -1,9 +1,9 @@
 import { PortraitProps } from "../../types";
 import './Portrait.css';
-import alucardPortrait from '../../assets/img/portraits/alucard_portrait.webp';
-import gaeasCradlePortrait from '../../assets/img/portraits/gaeas_cradle.webp';
-import solairePortrait from '../../assets/img/portraits/solaire.gif';
-import hhkbGuy from '../../assets/img/portraits/hhkbGuy.webp';
+import alucardPortrait from '../../../public/img/portraits/alucard_portrait.webp';
+import gaeasCradlePortrait from '../../../public/img/portraits/gaeas_cradle.webp';
+import hhkbGuyPortrait from '../../../public/img/portraits/hhkbGuy.webp';
+import solairePortrait from '../../../public/img/portraits/solaire.gif';
 
 export default function Portrait({ props }: { props: PortraitProps }) {
 
@@ -17,7 +17,7 @@ export default function Portrait({ props }: { props: PortraitProps }) {
     )
   } else if (props.theme == 'hhkb') {
     return (
-      <img src={hhkbGuy} className='portrait' data-theme={props.theme} />
+      <img src={hhkbGuyPortrait} className='portrait' data-theme={props.theme} />
     )
   } else {
     return (
