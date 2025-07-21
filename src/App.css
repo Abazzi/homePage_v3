@@ -7,10 +7,9 @@
   --alucard-font: 'alucard', sans-serif;
   --alucard-gold: #fc9805;
   --alucard-red: #df0b0c;
-  --beleran-font: 'beleran', sans-serif;
-  --goudy-font: 'goudy-mediaeval', sans-serif;
 
   /* Gaea's Cradle theme Variables */
+  --beleran-font: 'beleran', sans-serif;
   --gaeas-background: #744d29ff;
   --gaeas-eggshell: #d3c6aa;
   --gaeas-white: #fffbef;
@@ -45,32 +44,27 @@
 /* Imported Fonts */
 @font-face {
   font-family: 'alucard';
-  src: url('assets/fonts/Symphony of the Night.woff') format('woff');
+  src: url('../public/fonts/Symphony of the Night.woff') format('woff');
 }
 
 @font-face {
   font-family: 'kirsch';
-  src: url('assets/fonts/Kirsch Nerd Font Regular.woff') format('woff');
+  src: url('../public/fonts/Kirsch Nerd Font Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'toshiba-sat';
-  src: url('assets/fonts/WebPlus_ToshibaSat_8x14.woff') format('woff');
+  src: url('../public/fonts/WebPlus_ToshibaSat_8x14.woff') format('woff');
 }
 
 @font-face {
   font-family: 'beleran';
-  src: url('assets/fonts/Beleren2016-Bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'goudy-mediaeval';
-  src: url('assets/fonts/Goudy Mediaeval Regular.woff') format('woff');
+  src: url('../public/fonts/Beleren2016-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'torus';
-  src: url('assets/fonts/Torus_Regular.woff') format('woff');
+  src: url('../public//fonts/Torus_Regular.woff') format('woff');
 }
 
 body {
