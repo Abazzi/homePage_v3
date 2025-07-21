@@ -1,6 +1,6 @@
 import { DefaultLinkGroups, LinkBoardProps, ProgrammingLinkGroups } from "../../types";
 import ListOfLinks from "../ListOfLinks/ListOfLinks";
-import linkData from '../../../public/links.json';
+import linkData from '../../links.json';
 import './LinkBoard.css';
 import LinkBoardHeader from "../LinkBoardHeader/LinkBoardHeader";
 
