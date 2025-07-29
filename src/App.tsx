@@ -11,7 +11,7 @@ function App() {
    * component as a CSS data type that will update the look of the website on
    * change
    * */
-  const [theme, setTheme] = useState('hhkb');
+  const [theme, setTheme] = useState('solaire');
 
   /* Link Mode represents the name of the array of links in links.json
  * that is currently being displayed on the page. In v2 the theme and link
