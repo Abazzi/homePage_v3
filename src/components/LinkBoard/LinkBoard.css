@@ -4,8 +4,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   gap: 2rem;
 }
 
@@ -13,4 +12,12 @@
   grid-area: links;
   text-align: center;
   display: grid;
+}
+
+/* The Alucard font doesn't scale well so it's bigger than the others*/
+.link-board[data-theme='alucard'] > .list-of-links > .list-title {
+  font-size: 2.5rem;
+}
+.link-board[data-theme='alucard'] > .list-of-links > li > a {
+  font-size: 1.5rem;
 }
