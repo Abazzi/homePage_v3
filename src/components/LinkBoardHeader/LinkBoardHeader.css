@@ -36,13 +36,8 @@
   opacity: 1;
 }
 
-#switch-links-button {
-  background-image: url('../../assets/img/icons/tap.webp');
-  height: 50px;
-  width: 50px;
-  background-color: transparent;
-  border: none;
-  outline: none;
+#link-mode-select {
+  font-size: 1.5rem;
 }
 
 /*Keyframes for blinking cursor*/
