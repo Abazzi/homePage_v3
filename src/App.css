@@ -35,6 +35,7 @@
   --solaire-green: #77a03f;
   --solaire-font: 'toshiba-sat', sans-serif;
   --solaire-orange: #e9967a;
+  --solaire-text: #ead7d1;
 }
 
 #root {
@@ -111,7 +112,7 @@ li[data-theme='gaeas'] {
 
 li[data-theme='solaire'] {
   font-family: var(--solaire-font);
-  color: var(--gaeas-white);
+  color: var(--solaire-text);
 }
 
 select {

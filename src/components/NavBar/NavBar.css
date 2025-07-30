@@ -27,7 +27,7 @@
 
 .nav-bar[data-theme='solaire'] {
   background: var(--solaire-brick-red);
-  color: var(--gaeas-white);
+  color: var(--solaire-text);
   font-family: var(--solaire-font);
 }
 
