@@ -10,7 +10,7 @@
 .link-board-header[data-theme='solaire'] {
   font-family: var(--solaire-font);
   font-size: 2rem;
-  color: var(--gaeas-white);
+  color: var(--solaire-text);
 }
 
 .link-board-header[data-theme='alucard'] {

@@ -46,7 +46,7 @@ a {
   font-family: var(--solaire-font);
   font-size: 1.5rem;
   text-decoration: none;
-  color: var(--gaeas-white);
+  color: var(--solaire-text);
 }
 
 .link-board[data-theme='solaire'] > ul > .list-title {
