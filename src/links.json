@@ -137,6 +137,11 @@
                 "url": "https://pixeldrain.com/home"
             },
             {
+                "name": "mini flux",
+                "group": "0",
+                "url": "https://reader.miniflux.app"
+            },
+            {
                 "name": "gmail",
                 "group": "0",
                 "url": "https://mail.google.com"
