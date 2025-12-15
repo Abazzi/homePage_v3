@@ -34,11 +34,11 @@ export type LinkBoardHeaderProps = {
 
 /* Non-Prop Types */
 
-export type ProgrammingLinkGroups = {
+export type SchoolLinkGroups = {
   daily: Link[];
   tools: Link[];
   docs: Link[];
-  inspo: Link[];
+  learning: Link[];
 };
 
 export type DefaultLinkGroups = {
