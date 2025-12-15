@@ -8,7 +8,7 @@ export default function LinkBoardHeader({ props }: { props: LinkBoardHeaderProps
       <span>[root@{props.linkMode}]<span className='blinking'> _ </span></span>
       <select name="link-mode" id="link-mode-select" defaultValue='default' onChange={e => props.setLinkMode(e.target.value)}>
         <option value='default'>Default</option>
-        <option value='programming'>Programming</option>
+        <option value='school'>School</option>
       </select>
     </div>
   );
