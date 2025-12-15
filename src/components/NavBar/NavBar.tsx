@@ -42,7 +42,6 @@ export default function NavBar({ props }: { props: NavBarProps }) {
 
   return (
     <nav data-theme={props.theme} className="nav-bar">
-      <h1>Comic Dialog</h1>
       <h1>{dateString}</h1>
       <h1>{weather} °C</h1>
 
