@@ -1,5 +1,5 @@
 {
-    "programming": {
+    "school": {
         "daily": [
             {
                 "name": "github",
@@ -7,29 +7,14 @@
                 "url": "https://github.com"
             },
             {
-                "name": "the odin project",
+                "name": "blackboard",
                 "group": "0",
-                "url": "https://theodinproject.com"
+                "url": "https://lms.stclaircollege.ca/ultra/stream"
             },
             {
-                "name": "exercism",
+                "name": "school email",
                 "group": "0",
-                "url": "https://exercism.org"
-            },
-            {
-                "name": "code wars",
-                "group": "0",
-                "url": "https://codewars.com"
-            },
-            {
-                "name": "30secondsOfCode",
-                "group": "0",
-                "url": "https://www.30secondsofcode.org"
-            },
-            {
-                "name": "leet code",
-                "group": "0",
-                "url": "https://www.leetcode.com"
+                "url": "https://login.microsoftonline.com/login.srf?wa=wsignin1.0&whr=stclaircollege.ca&wreply=https://outlook.office365.com/owa?auth=2"
             }
         ],
         "tools": [
@@ -39,19 +24,14 @@
                 "url": "https://regex101.com"
             },
             {
-                "name": "figma",
-                "group": "1",
-                "url": "https://figma.com"
-            },
-            {
                 "name": "jsonlint",
                 "group": "1",
                 "url": "https://jsonlint.com/"
             },
             {
-                "name": "coolors",
+                "name": "wolfram alpha",
                 "group": "1",
-                "url": "https://coolors.co/"
+                "url": "https://www.wolframalpha.com"
             },
             {
                 "name": "fffuel",
@@ -91,31 +71,31 @@
                 "url": "https://rosettacode.org/wiki/Rosetta_Code"
             }
         ],
-        "inspo": [
+        "learning": [
             {
-                "name": "mobbin",
+                "name": "khan acadamy",
                 "group": "3",
-                "url": "https://mobbin.com"
-            },
-            {
-                "name": "v0",
-                "group": "3",
-                "url": "https://v0.dev"
-            },
-            {
-                "name": "httpster",
-                "group": "3",
-                "url": "https://httpster.net"
-            },
-            {
-                "name": "chatGPT",
-                "group": "3",
-                "url": "https://chatgpt.com"
+                "url": "https://www.khanacademy.org"
             },
             {
                 "name": "dribble",
                 "group": "3",
                 "url": "https://dribble.com"
+            },
+            {
+                "name": "30secondsOfCode",
+                "group": "0",
+                "url": "https://www.30secondsofcode.org"
+            },
+            {
+                "name": "jensen math",
+                "group": "0",
+                "url": "https://www.jensenmath.ca"
+            },
+            {
+                "name": "leet code",
+                "group": "0",
+                "url": "https://www.leetcode.com"
             }
         ]
     },
@@ -159,24 +139,9 @@
                 "url": "https://letterboxd.com"
             },
             {
-                "name": "bubbles form",
-                "group": "1",
-                "url": "https://bubbleszine.proboards.com"
-            },
-            {
-                "name": "discord",
-                "group": "1",
-                "url": "https://discord.com/app"
-            },
-            {
                 "name": "moxfield",
                 "group": "1",
                 "url": "https://moxfield.com"
-            },
-            {
-                "name": "brain",
-                "group": "1",
-                "url": "https://github.com/Abazzi/brain"
             }
         ],
         "media": [
@@ -209,11 +174,6 @@
                 "name": "books",
                 "group": "2",
                 "url": "https://books.adambazzi.ca"
-            },
-            {
-                "name": "tidal",
-                "group": "2",
-                "url": "https://listen.tidal.com"
             }
         ],
         "server": [
@@ -241,11 +201,6 @@
                 "name": "prowlarr",
                 "group": "3",
                 "url": "https://prowlarr.adambazzi.ca"
-            },
-            {
-                "name": "bazarr",
-                "group": "3",
-                "url": "https://bazarr.adambazzi.ca"
             }
         ]
     }
