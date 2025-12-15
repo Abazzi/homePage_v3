@@ -11,14 +11,14 @@ a {
 /* This was easier than prop drilling the theme */
 
 /* Alucard Link Styling */
-.link-board[data-theme='alucard'] > ul > li > a {
+.link-board[data-theme='alucard']>ul>li>a {
   font-family: var(--alucard-font);
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--gaeas-white);
 }
 
-.link-board[data-theme='alucard'] > ul > .list-title {
+.link-board[data-theme='alucard']>ul>.list-title {
   font-family: var(--alucard-font);
   font-size: 1.5rem;
   text-decoration: none;
@@ -26,14 +26,14 @@ a {
 }
 
 /* Gaeas Cradle Link Styling */
-.link-board[data-theme='gaeas'] > ul > li > a {
+.link-board[data-theme='gaeas']>ul>li>a {
   font-family: var(--beleran-font);
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--gaeas-white);
 }
 
-.link-board[data-theme='gaeas'] > ul > .list-title {
+.link-board[data-theme='gaeas']>ul>.list-title {
   font-family: var(--beleran-font);
   font-size: 1.5rem;
   text-decoration: none;
@@ -42,30 +42,31 @@ a {
 
 /* Solaire Link Styling */
 
-.link-board[data-theme='solaire'] > ul > li > a {
+.link-board[data-theme='solaire']>ul>li>a {
   font-family: var(--solaire-font);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   color: var(--solaire-text);
+  width: auto;
 }
 
-.link-board[data-theme='solaire'] > ul > .list-title {
+.link-board[data-theme='solaire']>ul>.list-title {
   font-family: var(--solaire-font);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   text-decoration: none;
   color: var(--solaire-orange);
 }
 
 /* HHKB Link Styling */
 
-.link-board[data-theme='hhkb'] > ul > li > a {
+.link-board[data-theme='hhkb']>ul>li>a {
   font-family: var(--hhkb-font);
   font-size: 1.5rem;
   text-decoration: none;
   color: var(--hhkb-text);
 }
 
-.link-board[data-theme='hhkb'] > ul > .list-title {
+.link-board[data-theme='hhkb']>ul>.list-title {
   font-family: var(--hhkb-font);
   font-size: 1.5rem;
   text-decoration: none;
@@ -73,18 +74,18 @@ a {
 }
 
 /* Hover Link Styling */
-.link-board[data-theme='solaire'] > ul > li > a:hover {
+.link-board[data-theme='solaire']>ul>li>a:hover {
   color: var(--solaire-green);
 }
 
-.link-board[data-theme='alucard'] > ul > li > a:hover {
+.link-board[data-theme='alucard']>ul>li>a:hover {
   color: var(--alucard-gold);
 }
 
-.link-board[data-theme='gaeas'] > ul > li > a:hover {
+.link-board[data-theme='gaeas']>ul>li>a:hover {
   color: var(--solaire-green);
 }
 
-.link-board[data-theme='hhkb'] > ul > li > a:hover {
+.link-board[data-theme='hhkb']>ul>li>a:hover {
   color: var(--hhkb-teal);
 }
