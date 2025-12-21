@@ -198,6 +198,11 @@
                 "url": "https://qbit.adambazzi.ca"
             },
             {
+                "name": "file explorer",
+                "group": "3",
+                "url": "https://copyparty.adambazzi.ca"
+            },
+            {
                 "name": "jellyseerr",
                 "group": "3",
                 "url": "https://jellyseerr.adambazzi.ca"
