@@ -17,6 +17,11 @@
                 "url": "https://stclairconnect.sharepoint.com/sites/mystclair2"
             },
             {
+                "name": "net cad",
+                "group": "0",
+                "url": "https://www.netacad.com/dashboard"
+            },
+            {
                 "name": "school email",
                 "group": "0",
                 "url": "https://login.microsoftonline.com/login.srf?wa=wsignin1.0&whr=stclaircollege.ca&wreply=https://outlook.office365.com/owa?auth=2"
