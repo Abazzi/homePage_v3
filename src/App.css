@@ -1,15 +1,15 @@
-@import './reset.css';
+@import "./reset.css";
 
 :root {
   /*Alucard Theme Variables */
   --alucard-dark-blue: #00011a;
   --alucard-light-blue: #1a1b5a;
-  --alucard-font: 'alucard', sans-serif;
+  --alucard-font: "alucard", sans-serif;
   --alucard-gold: #fc9805;
   --alucard-red: #df0b0c;
 
   /* Gaea's Cradle theme Variables */
-  --beleran-font: 'beleran', sans-serif;
+  --beleran-font: "beleran", sans-serif;
   --gaeas-background: #744d29ff;
   --gaeas-eggshell: #d3c6aa;
   --gaeas-white: #fffbef;
@@ -21,7 +21,7 @@
   --gaeas-tree-nut: #473427;
 
   /* HHKB Theme Variables (it's just Catppuccin Mocha)  */
-  --hhkb-font: 'torus', sans-serif;
+  --hhkb-font: "torus", sans-serif;
   --hhkb-nav-bar: #313244;
   --hhkb-orange: #fab387;
   --hhkb-text: #cdd6f4;
@@ -33,7 +33,7 @@
   --solaire-brick-red: #613e33;
   --solaire-background: #130c0a;
   --solaire-green: #77a03f;
-  --solaire-font: 'toshiba-sat', sans-serif;
+  --solaire-font: "toshiba-sat", sans-serif;
   --solaire-orange: #e9967a;
   --solaire-text: #ead7d1;
 }
@@ -46,28 +46,28 @@
 
 /* Imported Fonts */
 @font-face {
-  font-family: 'alucard';
-  src: url('./fonts/Symphony of the Night.woff') format('woff');
+  font-family: "alucard";
+  src: url("./fonts/Symphony of the Night.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'kirsch';
-  src: url('./fonts/Kirsch Nerd Font Regular.woff') format('woff');
+  font-family: "kirsch";
+  src: url("./fonts/Kirsch Nerd Font Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'toshiba-sat';
-  src: url('./fonts/WebPlus_ToshibaSat_8x14.woff') format('woff');
+  font-family: "toshiba-sat";
+  src: url("./fonts/WebPlus_ToshibaSat_8x14.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'beleran';
-  src: url('./fonts/Beleren2016-Bold.woff') format('woff');
+  font-family: "beleran";
+  src: url("./fonts/Beleren2016-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: 'torus';
-  src: url('./fonts/Torus_Regular.woff') format('woff');
+  font-family: "torus";
+  src: url("./fonts/Torus_Regular.woff") format("woff");
 }
 
 body {
@@ -77,40 +77,40 @@ body {
 
 .main-container {
   display: grid;
-  grid-template-areas: '. portrait links .';
+  grid-template-areas: ". portrait links .";
   grid-template-columns: 1fr 1fr 2fr 1fr;
   place-items: center;
   gap: 50px;
   height: 92.5%;
 }
 
-.main-container[data-theme='gaeas'] {
+.main-container[data-theme="gaeas"] {
   background-color: var(--gaeas-tree-nut);
 }
 
-.main-container[data-theme='solaire'] {
+.main-container[data-theme="solaire"] {
   background-color: var(--solaire-background);
 }
 
-.main-container[data-theme='alucard'] {
+.main-container[data-theme="alucard"] {
   background-color: var(--alucard-dark-blue);
 }
 
-.main-container[data-theme='hhkb'] {
+.main-container[data-theme="hhkb"] {
   background-color: var(--hhkb-background);
 }
 
-li[data-theme='alucard'] {
+li[data-theme="alucard"] {
   font-family: var(--alucard-font);
   color: var(--gaeas-white);
 }
 
-li[data-theme='gaeas'] {
+li[data-theme="gaeas"] {
   font-family: var(--beleran-font);
   color: var(--gaeas-white);
 }
 
-li[data-theme='solaire'] {
+li[data-theme="solaire"] {
   font-family: var(--solaire-font);
   color: var(--solaire-text);
 }
@@ -126,6 +126,15 @@ select {
     column-gap: 10px;
     justify-content: center;
     align-items: center;
-    max-height: 90%;
+  }
+}
+
+@media only screen and (max-width: 2048px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
   }
 }
