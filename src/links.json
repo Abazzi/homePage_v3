@@ -1,222 +1,227 @@
 {
-    "school": {
-        "daily": [
-            {
-                "name": "github",
-                "group": "0",
-                "url": "https://github.com"
-            },
-            {
-                "name": "blackboard",
-                "group": "0",
-                "url": "https://lms.stclaircollege.ca/ultra/stream"
-            },
-            {
-                "name": "sharepoint",
-                "group": "0",
-                "url": "https://stclairconnect.sharepoint.com/sites/mystclair2"
-            },
-            {
-                "name": "net cad",
-                "group": "0",
-                "url": "https://www.netacad.com/dashboard"
-            },
-            {
-                "name": "school email",
-                "group": "0",
-                "url": "https://login.microsoftonline.com/login.srf?wa=wsignin1.0&whr=stclaircollege.ca&wreply=https://outlook.office365.com/owa?auth=2"
-            }
-        ],
-        "tools": [
-            {
-                "name": "regex101",
-                "group": "1",
-                "url": "https://regex101.com"
-            },
-            {
-                "name": "jsonlint",
-                "group": "1",
-                "url": "https://jsonlint.com/"
-            },
-            {
-                "name": "wolfram alpha",
-                "group": "1",
-                "url": "https://www.wolframalpha.com"
-            },
-            {
-                "name": "fffuel",
-                "group": "1",
-                "url": "https://fffuel.co/"
-            },
-            {
-                "name": "photopea",
-                "group": "1",
-                "url": "https://photopea.com/"
-            }
-        ],
-        "docs": [
-            {
-                "name": "mankier",
-                "group": "2",
-                "url": "https://www.mankier.com/"
-            },
-            {
-                "name": "devdocs",
-                "group": "2",
-                "url": "https://devdocs.io/"
-            },
-            {
-                "name": "mdn",
-                "group": "2",
-                "url": "https://developer.mozilla.org/en-US/"
-            },
-            {
-                "name": "wumbo",
-                "group": "2",
-                "url": "https://wumbo.net"
-            },
-            {
-                "name": "rosetta code",
-                "group": "2",
-                "url": "https://rosettacode.org/wiki/Rosetta_Code"
-            }
-        ],
-        "learning": [
-            {
-                "name": "khan acadamy",
-                "group": "3",
-                "url": "https://www.khanacademy.org"
-            },
-            {
-                "name": "exercism",
-                "group": "3",
-                "url": "https://exercism.org"
-            },
-            {
-                "name": "30secondsOfCode",
-                "group": "0",
-                "url": "https://www.30secondsofcode.org"
-            },
-            {
-                "name": "jensen math",
-                "group": "0",
-                "url": "https://www.jensenmath.ca"
-            },
-            {
-                "name": "leet code",
-                "group": "0",
-                "url": "https://www.leetcode.com"
-            }
-        ]
-    },
-    "default": {
-        "daily": [
-            {
-                "name": "youtube",
-                "group": "0",
-                "url": "https://youtube.com"
-            },
-            {
-                "name": "proton mail",
-                "group": "0",
-                "url": "https://mail.proton.me"
-            },
-            {
-                "name": "pixel drain",
-                "group": "0",
-                "url": "https://pixeldrain.com/home"
-            },
-            {
-                "name": "mini flux",
-                "group": "0",
-                "url": "https://reader.miniflux.app"
-            },
-            {
-                "name": "gmail",
-                "group": "0",
-                "url": "https://mail.google.com"
-            }
-        ],
-        "social": [
-            {
-                "name": "patreon",
-                "group": "1",
-                "url": "https://patreon.com"
-            },
-            {
-                "name": "letterboxd",
-                "group": "1",
-                "url": "https://letterboxd.com"
-            },
-            {
-                "name": "moxfield",
-                "group": "1",
-                "url": "https://moxfield.com"
-            }
-        ],
-        "media": [
-            {
-                "name": "music",
-                "group": "2",
-                "url": "https://music.adambazzi.ca"
-            },
-            {
-                "name": "photos",
-                "group": "2",
-                "url": "https://photos.adambazzi.ca"
-            },
-            {
-                "name": "jellyfin",
-                "group": "2",
-                "url": "https://jellyfin.adambazzi.ca"
-            },
-            {
-                "name": "criterion channel",
-                "group": "2",
-                "url": "https://www.criterionchannel.com"
-            },
-            {
-                "name": "netflix",
-                "group": "2",
-                "url": "https://netflix.com"
-            },
-            {
-                "name": "books",
-                "group": "2",
-                "url": "https://books.adambazzi.ca"
-            }
-        ],
-        "server": [
-            {
-                "name": "radarr",
-                "group": "3",
-                "url": "https://radarr.adambazzi.ca"
-            },
-            {
-                "name": "sonarr",
-                "group": "3",
-                "url": "https://sonarr.adambazzi.ca"
-            },
-            {
-                "name": "qbittorrent",
-                "group": "3",
-                "url": "https://qbit.adambazzi.ca"
-            },
-            {
-                "name": "file explorer",
-                "group": "3",
-                "url": "https://copyparty.adambazzi.ca"
-            },
-            {
-                "name": "jellyseerr",
-                "group": "3",
-                "url": "https://jellyseerr.adambazzi.ca"
-            },
-            {
-                "name": "prowlarr",
-                "group": "3",
-                "url": "https://prowlarr.adambazzi.ca"
-            }
-        ]
-    }
+  "school": {
+    "daily": [
+      {
+        "name": "github",
+        "group": "0",
+        "url": "https://github.com"
+      },
+      {
+        "name": "blackboard",
+        "group": "0",
+        "url": "https://lms.stclaircollege.ca/ultra/stream"
+      },
+      {
+        "name": "sharepoint",
+        "group": "0",
+        "url": "https://stclairconnect.sharepoint.com/sites/mystclair2"
+      },
+      {
+        "name": "school email",
+        "group": "0",
+        "url": "https://login.microsoftonline.com/login.srf?wa=wsignin1.0&whr=stclaircollege.ca&wreply=https://outlook.office365.com/owa?auth=2"
+      },
+      {
+        "name": "net cad",
+        "group": "0",
+        "url": "https://www.netacad.com/dashboard"
+      }
+    ],
+    "tools": [
+      {
+        "name": "regex101",
+        "group": "1",
+        "url": "https://regex101.com"
+      },
+      {
+        "name": "jsonlint",
+        "group": "1",
+        "url": "https://jsonlint.com/"
+      },
+      {
+        "name": "wolfram alpha",
+        "group": "1",
+        "url": "https://www.wolframalpha.com"
+      },
+      {
+        "name": "photopea",
+        "group": "1",
+        "url": "https://photopea.com/"
+      },
+      {
+        "name": "fffuel",
+        "group": "1",
+        "url": "https://fffuel.co/"
+      }
+    ],
+    "docs": [
+      {
+        "name": "mdn",
+        "group": "2",
+        "url": "https://developer.mozilla.org/en-US/"
+      },
+      {
+        "name": "mankier",
+        "group": "2",
+        "url": "https://www.mankier.com/"
+      },
+      {
+        "name": "rosetta code",
+        "group": "2",
+        "url": "https://rosettacode.org/wiki/Rosetta_Code"
+      },
+      {
+        "name": "devdocs",
+        "group": "2",
+        "url": "https://devdocs.io/"
+      },
+      {
+        "name": "wumbo",
+        "group": "2",
+        "url": "https://wumbo.net"
+      }
+    ],
+    "learning": [
+      {
+        "name": "exercism",
+        "group": "3",
+        "url": "https://exercism.org"
+      },
+      {
+        "name": "khan acadamy",
+        "group": "3",
+        "url": "https://www.khanacademy.org"
+      },
+      {
+        "name": "30secondsOfCode",
+        "group": "0",
+        "url": "https://www.30secondsofcode.org"
+      },
+      {
+        "name": "jensen math",
+        "group": "0",
+        "url": "https://www.jensenmath.ca"
+      },
+      {
+        "name": "leet code",
+        "group": "0",
+        "url": "https://www.leetcode.com"
+      }
+    ]
+  },
+  "default": {
+    "daily": [
+      {
+        "name": "youtube",
+        "group": "0",
+        "url": "https://youtube.com"
+      },
+      {
+        "name": "proton mail",
+        "group": "0",
+        "url": "https://mail.proton.me"
+      },
+      {
+        "name": "pixel drain",
+        "group": "0",
+        "url": "https://pixeldrain.com/home"
+      },
+      {
+        "name": "mini flux",
+        "group": "0",
+        "url": "https://reader.miniflux.app"
+      },
+      {
+        "name": "gmail",
+        "group": "0",
+        "url": "https://mail.google.com"
+      }
+    ],
+    "social": [
+      {
+        "name": "patreon",
+        "group": "1",
+        "url": "https://patreon.com"
+      },
+      {
+        "name": "discord",
+        "group": "1",
+        "url": "https://discord.com"
+      },
+      {
+        "name": "letterboxd",
+        "group": "1",
+        "url": "https://letterboxd.com"
+      },
+      {
+        "name": "moxfield",
+        "group": "1",
+        "url": "https://moxfield.com"
+      }
+    ],
+    "media": [
+      {
+        "name": "music",
+        "group": "2",
+        "url": "https://music.adambazzi.ca"
+      },
+      {
+        "name": "photos",
+        "group": "2",
+        "url": "https://photos.adambazzi.ca"
+      },
+      {
+        "name": "jellyfin",
+        "group": "2",
+        "url": "https://jellyfin.adambazzi.ca"
+      },
+      {
+        "name": "criterion",
+        "group": "2",
+        "url": "https://www.criterionchannel.com"
+      },
+      {
+        "name": "netflix",
+        "group": "2",
+        "url": "https://netflix.com"
+      },
+      {
+        "name": "books",
+        "group": "2",
+        "url": "https://books.adambazzi.ca"
+      }
+    ],
+    "server": [
+      {
+        "name": "radarr",
+        "group": "3",
+        "url": "https://radarr.adambazzi.ca"
+      },
+      {
+        "name": "sonarr",
+        "group": "3",
+        "url": "https://sonarr.adambazzi.ca"
+      },
+      {
+        "name": "qbittorrent",
+        "group": "3",
+        "url": "https://qbit.adambazzi.ca"
+      },
+      {
+        "name": "file explorer",
+        "group": "3",
+        "url": "https://copyparty.adambazzi.ca"
+      },
+      {
+        "name": "jellyseerr",
+        "group": "3",
+        "url": "https://jellyseerr.adambazzi.ca"
+      },
+      {
+        "name": "prowlarr",
+        "group": "3",
+        "url": "https://prowlarr.adambazzi.ca"
+      }
+    ]
+  }
 }
