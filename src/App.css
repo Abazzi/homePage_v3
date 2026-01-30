@@ -136,7 +136,7 @@ select {
 * Media query for iPad Air
 */
 
-@media only screen and (min-width: 2048px) and (min-height: 2732px) {
+@media only screen and (min-width: 2040px) and (max-width: 2056px) {
   .main-container {
     display: flex;
     flex-direction: column;
