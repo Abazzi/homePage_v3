@@ -22,7 +22,7 @@
         "url": "https://login.microsoftonline.com/login.srf?wa=wsignin1.0&whr=stclaircollege.ca&wreply=https://outlook.office365.com/owa?auth=2"
       },
       {
-        "name": "net cad",
+        "name": "net acad",
         "group": "0",
         "url": "https://www.netacad.com/dashboard"
       }
