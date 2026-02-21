@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css'
 import NavBar from './components/NavBar/NavBar';
 import Portrait from './components/Portrait/Portrait';
@@ -11,7 +11,25 @@ function App() {
    * component as a CSS data type that will update the look of the website on
    * change
    * */
-  const [theme, setTheme] = useState('solaire');
+
+
+  const localStorageTheme = JSON.parse(localStorage.getItem('theme'));
+
+  const [theme, setTheme] = useState('solarie');
+
+  useEffect(() => {
+    if (localStorageTheme !== null) {
+      setTheme(localStorageTheme);
+    } else {
+      setTheme('solaire');
+      localStorage.setItem('theme', 'solarie');
+    }
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem('theme', JSON.stringify(theme));
+  }, [theme])
+
 
   /* Link Mode represents the name of the array of links in links.json
  * that is currently being displayed on the page. In v2 the theme and link
