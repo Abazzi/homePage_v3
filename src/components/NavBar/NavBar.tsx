@@ -48,7 +48,7 @@ export default function NavBar({ props }: { props: NavBarProps }) {
       <select
         name='themes'
         id='themes-dropwdown'
-        defaultValue={props.theme}
+        value={props.theme}
         onChange={e => {
           props.setTheme(e.target.value);
           localStorage.setItem('theme', JSON.stringify(e.target.value))
