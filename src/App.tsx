@@ -13,9 +13,16 @@ function App() {
    * */
 
 
-  const localStorageTheme = JSON.parse(localStorage.getItem('theme'));
 
   const [theme, setTheme] = useState('solarie');
+
+  // Wrapper function for fetching the theme in localStorage
+  function getItem<T>(key: string): T | null {
+    const item = localStorage.getItem(key);
+    return item ? JSON.parse(item) as T : null;
+  }
+
+  const localStorageTheme:string | null = getItem('theme');
 
   useEffect(() => {
     if (localStorageTheme !== null) {
