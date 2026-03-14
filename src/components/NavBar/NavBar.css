@@ -1,4 +1,4 @@
-@import '../../App.css';
+@import "../../App.css";
 
 .nav-bar {
   display: flex;
@@ -8,7 +8,7 @@
   height: 7.5%;
 }
 
-.nav-bar[data-theme='alucard'] {
+.nav-bar[data-theme="alucard"] {
   background: linear-gradient(
     90deg,
     rgba(0, 2, 31, 1) 0%,
@@ -19,19 +19,25 @@
   font-family: var(--alucard-font);
 }
 
-.nav-bar[data-theme='gaeas'] {
+.nav-bar[data-theme="gaeas"] {
   background: var(--gaeas-background);
   color: var(--gaeas-white);
   font-family: var(--beleran-font);
 }
 
-.nav-bar[data-theme='solaire'] {
+.nav-bar[data-theme="tolarian"] {
+  background: var(--tolarian-blue);
+  color: var(--tolarian-gold);
+  font-family: var(--tolarian-text);
+}
+
+.nav-bar[data-theme="solaire"] {
   background: var(--solaire-brick-red);
   color: var(--solaire-text);
   font-family: var(--solaire-font);
 }
 
-.nav-bar[data-theme='hhkb'] {
+.nav-bar[data-theme="hhkb"] {
   background: var(--hhkb-nav-bar);
   color: var(--hhkb-text);
   font-family: var(--hhkb-font);

@@ -1,4 +1,4 @@
-@import '../../App.css';
+@import "../../App.css";
 
 .portrait {
   max-width: 400px;
@@ -8,19 +8,23 @@
   place-items: center;
 }
 
-.portrait[data-theme='alucard'] {
+.portrait[data-theme="alucard"] {
   border: 3px solid var(--alucard-light-blue);
 }
 
-.portrait[data-theme='gaeas'] {
+.portrait[data-theme="gaeas"] {
   border: 3px solid var(--gaeas-card-border);
 }
 
-.portrait[data-theme='solaire'] {
+.portrait[data-theme="tolarian"] {
+  border: 3px solid var(--tolarian-gold);
+}
+
+.portrait[data-theme="solaire"] {
   border: 3px solid var(--solaire-orange);
 }
 
-.portrait[data-theme='hhkb'] {
+.portrait[data-theme="hhkb"] {
   border: 3px solid var(--hhkb-purple);
 }
 

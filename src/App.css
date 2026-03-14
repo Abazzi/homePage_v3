@@ -15,10 +15,19 @@
   --gaeas-white: #fffbef;
   --gaeas-green: #787116;
   --gaeas-blue-grey: #899d9a;
+
   /* The Card Border is based on the physical card from Urza's Saga */
   --gaeas-card-border: #ad9a93;
   --gaeas-tree: #8e6e3c;
   --gaeas-tree-nut: #473427;
+
+  /* Tolarian Academy theme variables */
+  --tolarian-purple: #958aa6;
+  --tolarian-blue: #91ada9;
+  --tolarian-gold: #f2a516;
+  --tolarian-brown: #8c704f;
+  --tolarian-grey: #989caa;
+  --tolarian-text: "goudy", sans-serif;
 
   /* HHKB Theme Variables (it's just Catppuccin Mocha)  */
   --hhkb-font: "torus", sans-serif;
@@ -36,6 +45,16 @@
   --solaire-font: "toshiba-sat", sans-serif;
   --solaire-orange: #e9967a;
   --solaire-text: #ead7d1;
+
+  --mtg-brown-pattern:
+    radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px),
+    linear-gradient(145deg, #b5844a, #7a4d25);
+
+  --mtg-brown-pattern-size: 6px 6px, 8px 8px, 12px 12px, 100% 100%;
+
+  --mtg-brown-pattern-position: 0 0, 3px 3px, 1px 4px, 0 0;
 }
 
 #root {
@@ -51,8 +70,13 @@
 }
 
 @font-face {
-  font-family: "kirsch";
-  src: url("./fonts/Kirsch Nerd Font Regular.woff") format("woff");
+  font-family: "goudy";
+  src: url("./fonts/Goudy Mediaeval DemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "matrix-bold";
+  src: url("./fonts/Matrix Bold.woff") format("woff");
 }
 
 @font-face {
@@ -84,8 +108,34 @@ body {
   height: 92.5%;
 }
 
+.mtg-brown-pattern {
+  background-color: #8a5a2b;
+
+  background-image:
+    radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
+    radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
+    radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px),
+    linear-gradient(145deg, #b5844a, #7a4d25);
+
+  background-size:
+    6px 6px,
+    8px 8px,
+    12px 12px,
+    100% 100%;
+
+  background-position:
+    0 0,
+    3px 3px,
+    1px 4px,
+    0 0;
+}
+
 .main-container[data-theme="gaeas"] {
   background-color: var(--gaeas-tree-nut);
+}
+
+.main-container[data-theme="tolarian"] {
+  background-color: var(--tolarian-brown);
 }
 
 .main-container[data-theme="solaire"] {
@@ -102,6 +152,11 @@ body {
 
 li[data-theme="alucard"] {
   font-family: var(--alucard-font);
+  color: var(--gaeas-white);
+}
+
+li[data-theme="tolarian"] {
+  font-family: var(--tolarian-text);
   color: var(--gaeas-white);
 }
 
