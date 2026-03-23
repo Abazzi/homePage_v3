@@ -104,5 +104,5 @@ a {
 }
 
 .link-board[data-theme="tolarian"] > ul > li > a:hover {
-  color: var(--tolarian-blue);
+  color: var(--tolarian-moss);
 }

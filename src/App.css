@@ -24,9 +24,12 @@
   /* Tolarian Academy theme variables */
   --tolarian-purple: #958aa6;
   --tolarian-blue: #91ada9;
-  --tolarian-gold: #f2a516;
-  --tolarian-brown: #8c704f;
+  --tolarian-gold: #c6a464;
+  --tolarian-dark-grey: #31302d;
   --tolarian-grey: #989caa;
+  --tolarian-granite: #534a4f;
+  --tolarian-brick-grey: #bdb7c4;
+  --tolarian-moss: #7fa372;
   --tolarian-text: "goudy", sans-serif;
 
   /* HHKB Theme Variables (it's just Catppuccin Mocha)  */
@@ -45,16 +48,6 @@
   --solaire-font: "toshiba-sat", sans-serif;
   --solaire-orange: #e9967a;
   --solaire-text: #ead7d1;
-
-  --mtg-brown-pattern:
-    radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
-    radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
-    radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px),
-    linear-gradient(145deg, #b5844a, #7a4d25);
-
-  --mtg-brown-pattern-size: 6px 6px, 8px 8px, 12px 12px, 100% 100%;
-
-  --mtg-brown-pattern-position: 0 0, 3px 3px, 1px 4px, 0 0;
 }
 
 #root {
@@ -108,34 +101,12 @@ body {
   height: 92.5%;
 }
 
-.mtg-brown-pattern {
-  background-color: #8a5a2b;
-
-  background-image:
-    radial-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
-    radial-gradient(rgba(255, 255, 255, 0.08) 1px, transparent 1px),
-    radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px),
-    linear-gradient(145deg, #b5844a, #7a4d25);
-
-  background-size:
-    6px 6px,
-    8px 8px,
-    12px 12px,
-    100% 100%;
-
-  background-position:
-    0 0,
-    3px 3px,
-    1px 4px,
-    0 0;
-}
-
 .main-container[data-theme="gaeas"] {
   background-color: var(--gaeas-tree-nut);
 }
 
 .main-container[data-theme="tolarian"] {
-  background-color: var(--tolarian-brown);
+  background-color: var(--tolarian-granite);
 }
 
 .main-container[data-theme="solaire"] {

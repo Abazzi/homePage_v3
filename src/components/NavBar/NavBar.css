@@ -26,8 +26,8 @@
 }
 
 .nav-bar[data-theme="tolarian"] {
-  background: var(--tolarian-blue);
-  color: var(--tolarian-gold);
+  background: var(--tolarian-purple);
+  color: var(--tolarian-granite);
   font-family: var(--tolarian-text);
 }
 

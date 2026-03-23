@@ -31,10 +31,10 @@
   color: var(--hhkb-purple);
 }
 
-.link-board-header[data-theme="tolairan"] {
+.link-board-header[data-theme="tolarian"] {
   font-family: var(--tolarian-text);
-  font-size: 2rem;
-  color: var(--gaeas-white);
+  font-size: 2.5rem;
+  color: var(--tolarian-brick-grey);
 }
 
 .blinking {
