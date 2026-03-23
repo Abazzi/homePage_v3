@@ -1,10 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
-import { NavBarProps } from '../../types';
-import './NavBar.css';
+import { useEffect, useMemo, useState } from "react";
+import { NavBarProps } from "../../types";
+import "./NavBar.css";
 
 export default function NavBar({ props }: { props: NavBarProps }) {
-
-  const [weather, setWeather] = useState('');
+  const [weather, setWeather] = useState("");
 
   // MM-DD-YYY
   const currentDay = useMemo(() => {
@@ -15,21 +14,21 @@ export default function NavBar({ props }: { props: NavBarProps }) {
       date.getDate(),
       date.getDay(),
     );
-  }, [])
+  }, []);
 
-  const dateString = currentDay.toLocaleDateString('en-US', {
-    year: 'numeric',
-    day: 'numeric',
-    month: 'long',
+  const dateString = currentDay.toLocaleDateString("en-US", {
+    year: "numeric",
+    day: "numeric",
+    month: "long",
   });
 
   async function fetchWeather(date: Date): Promise<void> {
     const url =
-      'https://api.open-meteo.com/v1/forecast?latitude=42.293&longitude=-82.9&current=temperature_2m&hourly=temperature_2m&timezone=auto&forecast_days=1';
+      "https://api.open-meteo.com/v1/forecast?latitude=42.293&longitude=-82.9&current=temperature_2m&hourly=temperature_2m&timezone=auto&forecast_days=1";
     try {
       const response = await fetch(url);
       const data = await response.json();
-      setWeather(`${data.hourly.temperature_2m[date.getHours()]}`)
+      setWeather(`${data.hourly.temperature_2m[date.getHours()]}`);
     } catch (error) {
       throw new Error(`Error fetching data: ${error}`);
     }
@@ -37,8 +36,7 @@ export default function NavBar({ props }: { props: NavBarProps }) {
 
   useEffect(() => {
     fetchWeather(currentDay);
-  }, [currentDay])
-
+  }, [currentDay]);
 
   return (
     <nav data-theme={props.theme} className="nav-bar">
@@ -46,19 +44,22 @@ export default function NavBar({ props }: { props: NavBarProps }) {
       <h1>{weather} °C</h1>
 
       <select
-        name='themes'
-        id='themes-dropwdown'
+        name="themes"
+        id="themes-dropwdown"
         value={props.theme}
-        onChange={e => {
+        onChange={(e) => {
           props.setTheme(e.target.value);
-          localStorage.setItem('theme', JSON.stringify(e.target.value))
+          localStorage.setItem("theme", JSON.stringify(e.target.value));
         }}
       >
-        <option value="gaeas">Gaea's Cradle</option>
+        <optgroup label="MTG Themes">
+          <option value="gaeas">Gaea's Cradle</option>
+          <option value="tolarian">Tolarian Academy</option>
+        </optgroup>
         <option value="solaire">Solaire</option>
         <option value="alucard">Alucard</option>
         <option value="hhkb">HHKB</option>
       </select>
     </nav>
-  )
+  );
 }
