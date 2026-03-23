@@ -1,4 +1,4 @@
-@import '../../App.css';
+@import "../../App.css";
 
 .link-board {
   display: inline-grid;
@@ -16,10 +16,19 @@
 }
 
 /* The Alucard font doesn't scale well so it's bigger than the others*/
-.link-board[data-theme='alucard']>.list-of-links>.list-title {
+.link-board[data-theme="alucard"] > .list-of-links > .list-title {
   font-size: 2.5rem;
 }
 
-.link-board[data-theme='alucard']>.list-of-links>li>a {
+.link-board[data-theme="alucard"] > .list-of-links > li > a {
   font-size: 1.5rem;
+}
+
+/* The Alucard font doesn't scale well so it's bigger than the others*/
+.link-board[data-theme="tolarian"] > .list-of-links > .list-title {
+  font-size: 2.5rem;
+}
+
+.link-board[data-theme="tolarian"] > .list-of-links > li > a {
+  font-size: 1.8rem;
 }

@@ -15,10 +15,22 @@
   --gaeas-white: #fffbef;
   --gaeas-green: #787116;
   --gaeas-blue-grey: #899d9a;
+
   /* The Card Border is based on the physical card from Urza's Saga */
   --gaeas-card-border: #ad9a93;
   --gaeas-tree: #8e6e3c;
   --gaeas-tree-nut: #473427;
+
+  /* Tolarian Academy theme variables */
+  --tolarian-purple: #958aa6;
+  --tolarian-blue: #91ada9;
+  --tolarian-gold: #c6a464;
+  --tolarian-dark-grey: #31302d;
+  --tolarian-grey: #989caa;
+  --tolarian-granite: #534a4f;
+  --tolarian-brick-grey: #bdb7c4;
+  --tolarian-moss: #7fa372;
+  --tolarian-text: "goudy", sans-serif;
 
   /* HHKB Theme Variables (it's just Catppuccin Mocha)  */
   --hhkb-font: "torus", sans-serif;
@@ -51,8 +63,13 @@
 }
 
 @font-face {
-  font-family: "kirsch";
-  src: url("./fonts/Kirsch Nerd Font Regular.woff") format("woff");
+  font-family: "goudy";
+  src: url("./fonts/Goudy Mediaeval DemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "matrix-bold";
+  src: url("./fonts/Matrix Bold.woff") format("woff");
 }
 
 @font-face {
@@ -88,6 +105,10 @@ body {
   background-color: var(--gaeas-tree-nut);
 }
 
+.main-container[data-theme="tolarian"] {
+  background-color: var(--tolarian-granite);
+}
+
 .main-container[data-theme="solaire"] {
   background-color: var(--solaire-background);
 }
@@ -102,6 +123,11 @@ body {
 
 li[data-theme="alucard"] {
   font-family: var(--alucard-font);
+  color: var(--gaeas-white);
+}
+
+li[data-theme="tolarian"] {
+  font-family: var(--tolarian-text);
   color: var(--gaeas-white);
 }
 
