@@ -181,6 +181,11 @@
         "url": "https://jellyfin.adambazzi.ca"
       },
       {
+        "name": "audiobooks",
+        "group": "2",
+        "url": "https://audiobooks.adambazzi.ca"
+      },
+      {
         "name": "criterion",
         "group": "2",
         "url": "https://www.criterionchannel.com"
