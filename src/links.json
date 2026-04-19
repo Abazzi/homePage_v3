@@ -191,6 +191,11 @@
         "url": "https://www.criterionchannel.com"
       },
       {
+        "name": "kanopy",
+        "group": "2",
+        "url": "https://www.kanopy.com"
+      },
+      {
         "name": "netflix",
         "group": "2",
         "url": "https://netflix.com"
