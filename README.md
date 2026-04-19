@@ -1,7 +1,4 @@
-# Homepage v3 (now created with React with some extra features)
-
-> Home page that contains my most used links for easy access, as well as
-> a comic strip reader that fetches data from [ComicsRSS](https://www.comicsrss.com/)
+# Homepage v3 (now created with React with themes)
 
 ## Install
 1. Clone Repo
@@ -13,8 +10,10 @@
 - [Castlevania: Symphony of the Night Font](https://www.pentacom.jp/pentacom/bitfontmaker2/gallery/?id=862)
 - [Alucard Animated Sprite (from Vampire Survivors)](https://poncle.games/)
 - [Alucard Portrait Image](https://www.konami.com/games/castlevania/eu/en/)
-- [Gaea's Cradle](https://www.originalmagicart.store/products/gaeas-cradle-print)
+- [Tolarian Academy Image](https://cards.scryfall.io/large/front/a/d/ad7ac9a5-340f-4509-826c-7b9416d47887.jpg?1562931623)
+- [Gaea's Cradle Image](https://cards.scryfall.io/large/front/2/5/25b0b816-0583-44aa-9dc5-f3ff48993a51.jpg?1562902898)
 - [Beleran Font](https://github.com/Saeris/typeface-beleren-bold)
+- [Goudy Medieval Font](https://www.1001freefonts.com/goudy-mediaeval.font)
 
 ### Previous Versions
 [v1](https://github.com/Abazzi/startpage)
