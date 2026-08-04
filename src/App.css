@@ -146,35 +146,24 @@ select {
 }
 
 /**
-* Smaller screens than 1080p will have the layout in a column format
-*/
-/* @media only screen and (max-width: 1000px) { */
-/*   .main-container { */
-/*     display: flex; */
-/*     flex-direction: column; */
-/*     column-gap: 10px; */
-/*     justify-content: center; */
-/*     align-items: center; */
-/*   } */
-/* } */
-
-/**
-* Media query for iPad Air
-*/
-
-@media only screen and (min-width: 820px) and (max-width: 1366px) {
+ * Smaller screens (phones and tablets) switch the grid to a
+ * single stacked column. Portrait renders before LinkBoard in
+ * App.tsx, so it naturally lands on top.
+ *
+ * This replaces the old tablet-only range query
+ * (min-width: 820px) and (max-width: 1366px), which left phones
+ * narrower than 820px with no stacking rule at all, and the
+ * @container query below it, which never fired because no
+ * ancestor had container-type set.
+ */
+@media only screen and (max-width: 900px) {
   .main-container {
     display: flex;
     flex-direction: column;
-    column-gap: 10px;
     justify-content: center;
     align-items: center;
-  }
-}
-
-@container (max-width: 900px) {
-  .main-container {
-    display: flex;
-    flex-direction: column;
+    gap: 20px;
+    height: auto;
+    min-height: 92.5%;
   }
 }
