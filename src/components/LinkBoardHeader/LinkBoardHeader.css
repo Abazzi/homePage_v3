@@ -5,6 +5,12 @@
   justify-content: center;
   gap: 2rem;
   align-items: center;
+  flex-wrap: nowrap;   /* keeps the prompt and dropdown on one row */
+}
+
+.link-board-header__prompt {
+  white-space: nowrap;   /* stops "[root@...]" and the blinking cursor
+                             from wrapping onto separate lines */
 }
 
 .link-board-header[data-theme="solaire"] {

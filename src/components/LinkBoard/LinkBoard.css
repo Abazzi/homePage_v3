@@ -1,5 +1,19 @@
 @import "../../App.css";
 
+.link-board-container {
+  grid-area: links;
+  text-align: center;
+  display: grid;
+  width: 100%;                   /* forces it to fill its track instead of
+                                     shrink-wrapping under place-items/align-items:
+                                     center — without this, container-type below
+                                     has no real width to measure and collapses,
+                                     which is why it was always matching the
+                                     narrowest breakpoint */
+  container-type: inline-size;   /* makes this element a query container */
+  container-name: link-board;
+}
+
 .link-board {
   display: inline-grid;
   grid-template-columns: repeat(4, 1fr);
@@ -7,12 +21,6 @@
   padding-top: 1rem;
   justify-items: center;
   gap: 1rem;
-}
-
-.link-board-container {
-  grid-area: links;
-  text-align: center;
-  display: grid;
 }
 
 /* The Alucard font doesn't scale well so it's bigger than the others*/
@@ -31,4 +39,28 @@
 
 .link-board[data-theme="tolarian"] > .list-of-links > li > a {
   font-size: 1.8rem;
+}
+
+/**
+ * Each ListOfLinks column is 12.5rem wide (see ListOfLinks.css),
+ * so 4 columns + 3 gaps needs roughly 4*200px + 3*16px = ~848px.
+ * Below that, .link-board-container no longer has room to hold
+ * all 4 side by side without horizontal scroll, so wrap into a
+ * 2x2 layout instead.
+ */
+@container link-board (max-width: 860px) {
+  .link-board {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/**
+ * Below ~430px (2 columns' worth: 2*200px + 1*16px gap = ~416px)
+ * even the 2x2 layout won't fit without horizontal scroll, so
+ * fall back to a single column.
+ */
+@container link-board (max-width: 430px) {
+  .link-board {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
