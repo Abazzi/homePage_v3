@@ -43,7 +43,34 @@ function App() {
  * selections were combined but in v3 you can have any combo of links and
  * themes
  * */
+  const LINK_MODES = ['default', 'school'];
   const [linkMode, setLinkMode] = useState('default');
+
+  // Pressing 'w' cycles to the next link mode. Ignored while focus is on
+  // an input/select/textarea/contentEditable element so it doesn't fire
+  // while the user is typing or interacting with the theme/link dropdowns.
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      const target = e.target as HTMLElement;
+      const isTyping =
+        target.tagName === 'INPUT' ||
+        target.tagName === 'TEXTAREA' ||
+        target.isContentEditable;
+
+      if (isTyping) return;
+
+      if (e.key.toLowerCase() === 'w') {
+        setLinkMode(prev => {
+          const currentIndex = LINK_MODES.indexOf(prev);
+          const nextIndex = (currentIndex + 1) % LINK_MODES.length;
+          return LINK_MODES[nextIndex];
+        });
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
   return (
     <>
