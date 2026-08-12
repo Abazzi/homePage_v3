@@ -16,7 +16,12 @@
 
 .link-board {
   display: inline-grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));  /* minmax(0, 1fr) lets each
+                                     column shrink below its content's natural
+                                     size instead of forcing overflow — plain
+                                     1fr has an implicit min-width: auto, which
+                                     was clipping the 2nd column on narrower
+                                     screens like an iPad in portrait */
   grid-template-rows: auto;
   padding-top: 1rem;
   justify-items: center;
@@ -42,25 +47,26 @@
 }
 
 /**
- * Each ListOfLinks column is 12.5rem wide (see ListOfLinks.css),
+ * Each ListOfLinks column is up to 12.5rem wide (see ListOfLinks.css),
  * so 4 columns + 3 gaps needs roughly 4*200px + 3*16px = ~848px.
  * Below that, .link-board-container no longer has room to hold
  * all 4 side by side without horizontal scroll, so wrap into a
- * 2x2 layout instead.
+ * 2x2 layout instead. With minmax(0, 1fr) above, the columns will
+ * shrink to fit rather than overflow/clip on narrower containers
+ * (e.g. an iPad Air 13 in portrait, which only gives ~350px here).
  */
 @container link-board (max-width: 860px) {
   .link-board {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 /**
- * Below ~430px (2 columns' worth: 2*200px + 1*16px gap = ~416px)
- * even the 2x2 layout won't fit without horizontal scroll, so
- * fall back to a single column.
+ * Below ~300px there's not enough room for two shrunk columns to
+ * stay legible, so fall back to a single column.
  */
-@container link-board (max-width: 430px) {
+@container link-board (max-width: 300px) {
   .link-board {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: minmax(0, 1fr);
   }
 }
