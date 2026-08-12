@@ -1,4 +1,5 @@
 .list-of-links {
   list-style-type: none;
-  width: 12.5rem;
+  width: 100%;
+  max-width: 12.5rem;
 }
