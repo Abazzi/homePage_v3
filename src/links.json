@@ -7,14 +7,14 @@
         "url": "https://github.com"
       },
       {
-        "name": "harris learn",
-        "group": "0",
-        "url": "https://hypatia.harrislearn.com"
-      },
-      {
         "name": "blackboard",
         "group": "0",
         "url": "https://lms.stclaircollege.ca/ultra/stream"
+      },
+      {
+        "name": "studnet info system",
+        "group": "0",
+        "url": "https://cssso.stclaircollege.ca"
       },
       {
         "name": "sharepoint",
@@ -25,60 +25,30 @@
         "name": "school email",
         "group": "0",
         "url": "https://login.microsoftonline.com/login.srf?wa=wsignin1.0&whr=stclaircollege.ca&wreply=https://outlook.office365.com/owa?auth=2"
-      },
-      {
-        "name": "net acad",
-        "group": "0",
-        "url": "https://www.netacad.com/dashboard"
       }
     ],
     "tools": [
-      {
-        "name": "regex101",
-        "group": "1",
-        "url": "https://regex101.com"
-      },
-      {
-        "name": "jsonlint",
-        "group": "1",
-        "url": "https://jsonlint.com/"
-      },
       {
         "name": "wolfram alpha",
         "group": "1",
         "url": "https://www.wolframalpha.com"
       },
       {
-        "name": "photopea",
-        "group": "1",
-        "url": "https://photopea.com/"
-      },
-      {
-        "name": "fffuel",
-        "group": "1",
-        "url": "https://fffuel.co/"
+        "name": "engineering toolbox",
+        "group": "2",
+        "url": "https://www.engineeringtoolbox.com/#gsc.tab=0"
       }
     ],
     "docs": [
       {
-        "name": "mdn",
+        "name": "efunda",
         "group": "2",
-        "url": "https://developer.mozilla.org/en-US/"
+        "url": "https://www.efunda.com/home.cfm"
       },
       {
         "name": "mankier",
         "group": "2",
         "url": "https://www.mankier.com/"
-      },
-      {
-        "name": "rosetta code",
-        "group": "2",
-        "url": "https://rosettacode.org/wiki/Rosetta_Code"
-      },
-      {
-        "name": "devdocs",
-        "group": "2",
-        "url": "https://devdocs.io/"
       },
       {
         "name": "wumbo",
@@ -88,9 +58,14 @@
     ],
     "learning": [
       {
-        "name": "exercism",
+        "name": "chemquiz",
         "group": "3",
-        "url": "https://exercism.org"
+        "url": "https://chemquiz.net"
+      },
+      {
+        "name": "quizlet",
+        "group": "0",
+        "url": "https://www.quizlet.com"
       },
       {
         "name": "khan acadamy",
@@ -98,19 +73,9 @@
         "url": "https://www.khanacademy.org"
       },
       {
-        "name": "30secondsOfCode",
-        "group": "0",
-        "url": "https://www.30secondsofcode.org"
-      },
-      {
         "name": "jensen math",
         "group": "0",
         "url": "https://www.jensenmath.ca"
-      },
-      {
-        "name": "leet code",
-        "group": "0",
-        "url": "https://www.leetcode.com"
       }
     ]
   },
@@ -184,11 +149,6 @@
         "name": "audiobooks",
         "group": "2",
         "url": "https://audiobooks.adambazzi.ca"
-      },
-      {
-        "name": "criterion",
-        "group": "2",
-        "url": "https://www.criterionchannel.com"
       },
       {
         "name": "kanopy",
