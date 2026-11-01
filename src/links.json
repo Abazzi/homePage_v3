@@ -37,6 +37,11 @@
         "name": "engineering toolbox",
         "group": "2",
         "url": "https://www.engineeringtoolbox.com/#gsc.tab=0"
+      },
+      {
+        "name": "periodic table",
+        "group": "2",
+        "url": "https://www.ptable.com"
       }
     ],
     "docs": [
@@ -51,6 +56,11 @@
         "url": "https://www.mankier.com/"
       },
       {
+        "name": "pub chem",
+        "group": "2",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/"
+      },
+      {
         "name": "wumbo",
         "group": "2",
         "url": "https://wumbo.net"
@@ -58,14 +68,19 @@
     ],
     "learning": [
       {
+        "name": "anki",
+        "group": "0",
+        "url": "https://apps.ankiweb.net/"
+      },
+      {
         "name": "chemquiz",
         "group": "3",
         "url": "https://chemquiz.net"
       },
       {
-        "name": "quizlet",
+        "name": "paul's notes",
         "group": "0",
-        "url": "https://www.quizlet.com"
+        "url": "https://tutorial.math.lamar.edu/"
       },
       {
         "name": "khan acadamy",
@@ -76,6 +91,11 @@
         "name": "jensen math",
         "group": "0",
         "url": "https://www.jensenmath.ca"
+      },
+      {
+        "name": "quizlet",
+        "group": "0",
+        "url": "https://www.quizlet.com"
       }
     ]
   },
@@ -95,6 +115,11 @@
         "name": "pixel drain",
         "group": "0",
         "url": "https://pixeldrain.com/home"
+      },
+      {
+        "name": "monkeytype",
+        "group": "0",
+        "url": "https://monkeytype.com"
       },
       {
         "name": "mini flux",
@@ -171,6 +196,11 @@
         "name": "radarr",
         "group": "3",
         "url": "https://radarr.adambazzi.ca"
+      },
+      {
+        "name": "tunarr",
+        "group": "3",
+        "url": "https://tunarr.adambazzi.ca"
       },
       {
         "name": "sonarr",
