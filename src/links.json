@@ -122,6 +122,11 @@
         "url": "https://pixeldrain.com/home"
       },
       {
+        "name": "monkeytype",
+        "group": "0",
+        "url": "https://monkeytype.com"
+      },
+      {
         "name": "mini flux",
         "group": "0",
         "url": "https://reader.miniflux.app"
@@ -196,6 +201,11 @@
         "name": "radarr",
         "group": "3",
         "url": "https://radarr.adambazzi.ca"
+      },
+      {
+        "name": "tunarr",
+        "group": "3",
+        "url": "https://tunarr.adambazzi.ca"
       },
       {
         "name": "sonarr",
