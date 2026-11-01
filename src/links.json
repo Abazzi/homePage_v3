@@ -56,9 +56,14 @@
         "url": "https://www.mankier.com/"
       },
       {
+        "name": "concepts app manual",
+        "group": "2",
+        "url": "https://www.concepts.app/en/manual"
+      },
+      {
         "name": "pub chem",
         "group": "2",
-        "url": "https://pubchem.ncbi.nlm.nih.gov/"
+        "url": "https://www.pubchem.ncbi.nlm.nih.gov"
       },
       {
         "name": "wumbo",
@@ -70,7 +75,7 @@
       {
         "name": "anki",
         "group": "0",
-        "url": "https://apps.ankiweb.net/"
+        "url": "https://www.apps.ankiweb.net"
       },
       {
         "name": "chemquiz",
@@ -80,7 +85,7 @@
       {
         "name": "paul's notes",
         "group": "0",
-        "url": "https://tutorial.math.lamar.edu/"
+        "url": "https://www.tutorial.math.lamar.edu"
       },
       {
         "name": "khan acadamy",
