@@ -51,14 +51,14 @@
         "url": "https://www.efunda.com/home.cfm"
       },
       {
-        "name": "mankier",
-        "group": "2",
-        "url": "https://www.mankier.com/"
-      },
-      {
         "name": "pub chem",
         "group": "2",
         "url": "https://pubchem.ncbi.nlm.nih.gov/"
+      },
+      {
+        "name": "phet (physics simulations)",
+        "group": "2",
+        "url": "https://phet.colorado.edu/"
       },
       {
         "name": "wumbo",
